@@ -1,0 +1,84 @@
+
+@inproceedings{OspEA13,
+  timestamp = {2018-01-22T15:22:53Z},
+  address = {Las Vegas},
+  title = {A {{Benchmark}}-{{Driven Modelling Approach}} for {{Evaluating Deployment Choices}} on a {{Multicore Architecture}}},
+  isbn = {1-60132-258-5},
+  booktitle = {Proceedings of the {{International Conference}} on {{Parallel}} \& {{Distributed Processing Techniques}} \& {{Application}} ({{PDPTA}}'13)},
+  author = {Osprey, A. and Riley, G.D. and Manjunathaiah, M. and Lawrence, B.N.},
+  month = jul,
+  year = {2013},
+  pages = {571--577},
+}
+
+@inproceedings{Ospreydevelopmentdatadrivenapplication2014,
+  timestamp = {2018-01-22T15:22:58Z},
+  title = {The Development of a Data-Driven Application Benchmarking Approach to Performance Modelling},
+  doi = {10.1109/HPCSim.2014.6903760},
+  abstract = {Performance modelling is a useful tool in the lifeycle of high performance scientific software, such as weather and climate models, especially as a means of ensuring efficient use of available computing resources. In particular, sufficiently accurate performance prediction could reduce the effort and experimental computer time required when porting and optimising a climate model to a new machine. Yet as architectures become more complex, performance prediction is becoming more difficult. Traditional methods of performance prediction, based on source code analysis and supported by machine benchmarks, are proving inadequate to the task. In this paper, the reasons for this are explored by applying some traditional techniques to predict the computation time of a simple shallow water model which is illustrative of the computation (and communication) involved in climate models. These models are compared with real execution data gathered on AMD Opteron-based systems, including several phases of the U.K. academic community HPC resource, HECToR. Some success is had in relating source code to achieved performance for the K10 series of Opterons, but the method is found to be inadequate for the next-generation Interlagos processor. The experience leads to the investigation of a data-driven application benchmarking approach to performance modelling. Results for an early version of the approach are presented using the shallow model as an example. In addition, the data-driven approach is compared with a novel analytical model based on fitting logarithmic curves to benchmarked application data. The limitations of this analytical method provide further motivation for the development of the data-driven approach and results of this work have been published elsewhere.},
+  booktitle = {2014 {{International Conference}} on {{High Performance Computing Simulation}} ({{HPCS}})},
+  author = {Osprey, A. and Riley, G.D. and Manjunathaiah, M. and Lawrence, B.N.},
+  month = jul,
+  year = {2014},
+  pages = {715--723},
+  file = {IEEE Xplore Abstract Record:/Users/BNL28/zotero-storage/storage/766H76DP/abstractAuthors.html:text/html}
+}
+
+@article{LawChasm17,
+  timestamp = {2018-01-22T15:20:51Z},
+  title = {Crossing the {{Chasm}}: {{How}} to Develop Weather and Climate Models for next Generation Computers.},
+  doi = {10.5194/gmd-2017-186},
+  journal = {Geoscientific Model Development Discussions},
+  author = {Lawrence, Bryan N. and {Mike Rezny} and {Reinhard Budich} and {Peter Bauer} and {J{\"o}rg Behrens} and {Mick Carter} and {Willem Deconinck} and {Rupert Ford} and {Christopher Maynard} and {Steve Mullerworth} and {Carlos Osuna} and {Andy Porter} and {Kim Serradell} and {Sophie Valcke} and {Nils Wedi} and {Simon Wilson}},
+  keywords = {aces,bnl,onblog,prp17},
+  year={2017}
+}
+
+@misc{KunEA16,
+  timestamp = {2018-01-22T15:21:05Z},
+  address = {Salt Lake City},
+  type = {WIP},
+  title = {Middleware for {{Earth System Data}}},
+  urldate = {2017-06-23},
+  author = {Kunkel, Julian and Luettgau, Jakob and Lawrence, Bryan N. and Jensen, Jens and Congiu, Giuseppe and Readey, John},
+  year = {2016},
+  keywords = {aces,bnl,bnl-cv-conf,prp17},
+}
+
+@article{BalEA17p,
+  timestamp = {2018-01-22T15:23:34Z},
+  title = {{{CPMIP}}: Measurements of Real Computational Performance of {{Earth}} System Models in {{CMIP6}}},
+  volume = {10},
+  issn = {1991-9603},
+  shorttitle = {{{CPMIP}}},
+  doi = {10.5194/gmd-10-19-2017},
+  abstract = {A climate model represents a multitude of processes on a variety of timescales and space scales: a canonical example of multi-physics multi-scale modeling. The underlying climate system is physically characterized by sensitive dependence on initial conditions, and natural stochastic variability, so very long integrations are needed to extract signals of climate change. Algorithms generally possess weak scaling and can be I/O and/or memory-bound. Such weak-scaling, I/O, and memory-bound multi-physics codes present particular challenges to computational performance.  Traditional metrics of computational efficiency such as performance counters and scaling curves do not tell us enough about real sustained performance from climate models on different machines. They also do not provide a satisfactory basis for comparative information across models. codes present particular challenges to computational performance.  We introduce a set of metrics that can be used for the study of computational performance of climate (and Earth system) models. These measures do not require specialized software or specific hardware counters, and should be accessible to anyone. They are independent of platform and underlying parallel programming models. We show how these metrics can be used to measure actually attained performance of Earth system models on different machines, and identify the most fruitful areas of research and development for performance engineering. codes present particular challenges to computational performance.  We present results for these measures for a diverse suite of models from several modeling centers, and propose to use these measures as a basis for a CPMIP, a computational performance model intercomparison project (MIP).},
+  number = {1},
+  journal = {Geosci. Model Dev.},
+  author = {Balaji, V. and Maisonnave, E. and Zadeh, N. and Lawrence, B. N. and Biercamp, J. and Fladrich, U. and Aloisio, G. and Benson, R. and Caubel, A. and Durachta, J. and Foujols, M.-A. and Lister, G. and Mocavero, S. and Underwood, S. and Wright, G.},
+  month = jan,
+  year = {2017},
+  keywords = {bnl,bnl-cv,chasm,prp17,bnl-cv-refgen,bnl-cv-refjnl,onblog,aces},
+  pages = {19--34},
+  }
+
+@misc{LueEA17,
+  timestamp = {2018-01-22T15:21:26Z},
+  address = {Denver},
+  type = {WIP},
+  title = {Towards {{Structure}}-{{Aware Earth System Data Management}}},
+  abstract = {Current storage environments confront domain scientist and data
+center operators with usability and performance challenges. To
+achieve performance portability data description libraries such as
+HDF5 and NetCDF are widely adopted. At the moment, these libraries
+struggle to adequately account for access patterns when
+reading and writing data to multi-tier distributed storage systems.
+As part of the ESiWACE[1] project, we develop a novel I/O middleware
+targeting, but not limited to, earth system data. The architecture
+builds on top of well established end-user interfaces but utilizes
+scientific metadata to harness a data structure centric perspective.},
+  author = {Luettgau, Jakob and Kunkel, Julian and Lawrence, Bryan N. and Fiore, Sandro and Hua, Huang},
+  month = nov,
+  year = {2017},
+  keywords = {bnl,bnl-cv,bnl-cv-conf,aces},
+}
