@@ -11,9 +11,25 @@ body {
 
 .header {
     border-bottom: 1px solid $light-gray;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-bottom: 0px;
     margin-bottom: 20px;
     text-align: center;
+    background-color: black;
+}
+
+ul.uor {
+    padding-top:10px;
+    padding-bottom:10px;
+    li.nav-item {
+        a.nav-link {color:rgba(11,246,13,1)!important;}
+        a.nav-link:hover {color:white!important;}
+        a.nav-link.active  {
+            color:white!important;
+            background-color: red!important;
+        }
+    }
 }
 
 .footer {
@@ -53,8 +69,8 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 154px;
-    height: 35px;
+    width: 326px;
+    height: 76px;
     margin: 2px 0 8px 0;
 }
 
