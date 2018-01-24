@@ -4,19 +4,26 @@ bryan:
     role: faculty
     webpage: "http://www.bnlawrence.net"
     image: /img/people/bryan.jpg
-    bio: what?
+    bio: Professor of Weather and Climate Computing
 
 chris:
     display_name: "Chris Maynard"
     role: faculty
+    bio: Associate Professor in Computer Science
 
 julian:
     display_name: "Julian Kunkel"
     role: faculty
+    bio: Lecturer in Computer Science
 
 annette:
     display_name: "Annette Osprey"
     role: staff
+
+neil:
+    display_name: "Neil Massey"
+    role: collab
+    bio: Senior Data Scientist in the Centre for Environmental Data Analysis
 
 wolverine:
     display_name: "Wolverine"
