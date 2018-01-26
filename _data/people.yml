@@ -10,7 +10,7 @@ chris:
     display_name: "Chris Maynard"
     role: faculty
     bio: Associate Professor in Computer Science
-    website: "/bio/chris.md"
+    webpage: bio/chris.html
 
 julian:
     display_name: "Julian Kunkel"

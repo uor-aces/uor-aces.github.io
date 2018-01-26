@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Dr Christopher Maynard #
 
 ## Associate Professor of Computer Science ##
@@ -23,7 +27,7 @@ I did my PhD in Quantum Field theory at Edinburgh University between 1995 and 19
 Yes, I probably should.
 ---
 ### Contact details ###
-Dr Christoper Maynard 
+Dr Christoper Maynard
 Associate Professor
 Department of Computer Science
 School of Mathematical, Physical and Computer Science
@@ -31,6 +35,6 @@ University of Reading
 Room 156 Polly Vacher  Building  ( Systems Engineering)
 Whiteknights, Reading
 RG6 6AY (Sat Nav RG6 6UR)
- 
+
 Tel: +44  ( 0)118 378 8322    email: c.m.maynard@reading.ac.uk
 Mob: +44 (0)7920 76783
