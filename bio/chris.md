@@ -18,7 +18,8 @@ I joined the Advanced Computing for Environmental Sciences (ACES) group in the d
 * Domain Specific Embedded Language and Compiler
 * Quantum Computing
 
-[My publications](http://scholar.google.co.uk/citations?user=IkpjFloAAAAJ&hl=en)
+[My publications](http://scholar.google.co.uk/citations?user=IkpjFloAAAAJ&hl=en
+"My Google Scholar")
 
 ---
 
@@ -36,13 +37,22 @@ optimised and developed scientific and commercial code for High
 Performance Computers (HPC), engaged into research for methods
 exploiting such machines and taught aspects of HPC to students on the
 MSc course.  In 2012 I left EPCC and joined the Met Office as a
-[scientific software engineer](http://www.metoffice.gov.uk/research/people/christopher-maynard). Where
+
+[scientific software engineer](http://www.metoffice.gov.uk/research/people/christopher-maynard).
+
+Where
 I applied what I had learnt to developing the Unified Model and later
 as a member of the team writing LFRic, a new atmospheric model. I now
-work part-time for the Met Office.  --- ### Teaching
+work part-time for the Met Office.
+
+---
+
+### Teaching
 
 Yes, I probably should.
+
 ---
+
 ### Contact details
 Dr Christoper Maynard
 Associate Professor
