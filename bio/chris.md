@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Dr Christopher Maynard 
-
 ## Associate Professor of Computer Science 
 
 I joined the Advanced Computing for Environmental Sciences (ACES) group in the department of Computer Science at the Unversity of Reading in January 2018.
@@ -37,9 +35,7 @@ optimised and developed scientific and commercial code for High
 Performance Computers (HPC), engaged into research for methods
 exploiting such machines and taught aspects of HPC to students on the
 MSc course.  In 2012 I left EPCC and joined the Met Office as a
-
 [scientific software engineer](http://www.metoffice.gov.uk/research/people/christopher-maynard).
-
 Where
 I applied what I had learnt to developing the Unified Model and later
 as a member of the team writing LFRic, a new atmospheric model. I now
