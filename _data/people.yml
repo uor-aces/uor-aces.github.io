@@ -26,14 +26,18 @@ neil:
     role: collab
     bio: Senior Data Scientist in the Centre for Environmental Data Analysis
 
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
+simon:
+    display_name: "Simon Wilson"
+    role: staff
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
-    role: ugrad
-    image: /img/people/storm.png
+#wolverine:
+#    display_name: "Wolverine"
+#    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
+#    github: wolverine
+#    role: postdoc
+
+#storm:
+#    display_name: "Storm"
+#    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+#    role: ugrad
+#    image: /img/people/storm.png
