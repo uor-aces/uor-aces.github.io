@@ -2,7 +2,7 @@
 bryan:
     display_name: "Bryan Lawrence"
     role: faculty
-    webpage: "http://www.bnlawrence.net"
+    webpage: bio/bryan.html
     image: /img/people/bryan.jpg
     bio: Professor of Weather and Climate Computing
 
