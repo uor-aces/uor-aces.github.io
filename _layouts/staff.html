@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<p> {{page.role }} </p>
+<p> {{page.bio-headline}} </p>
+
+{% if page.webpages or page.scholar %}
+See also:
+<ul>
+{% for page in page.webpages %}
+    <li>My <a href={{ page.link }}>{{page.name}}</a> webpage.</li>
+{% endfor %}
+    <li> My <a href={{ page.scholar }}> Google Scholar</a> webpage.</li>
+</ul>
+{% endif %}
+
+{{ content }}
+
+<div class="address-bumf">
+<h3> Contact </h3>
+<p>
+{{ page.salutation }} {{page.title}} <br/>
+Department of Computer Science <br/>
+School of Mathematical, Physical and Computer Science <br/>
+University of Reading <br/>
+{{page.room}} Polly Vacher Building <br/>
+Whiteknights, Reading <br/>
+RG6 6AY (Sat Nav RG6 6UR) <br/>
+</p>
+
+<p> Phone: {{page.phone}}; Email: {{page.email}} </p>
+</div>

@@ -1,11 +1,20 @@
 ---
-layout: default
+layout: staff
+title: Christopher Maynard
+salutation: Dr
+role: Associate Professor of Computer Science
+scholar: "http://scholar.google.co.uk/citations?user=IkpjFloAAAAJ&hl=en"
+webpages:
+    - name: Metoffice
+      link: "https://www.metoffice.gov.uk/research/people/christopher-maynard"
+#    - name: Blah
+#      link: "http://blah"
+email: c.m.maynard@reading.ac.uk
+phone: +44 ( 0)118 378 8322
+room: Room 156
+bio-headline: >
+    I joined the Advanced Computing for Environmental Sciences (ACES) group in the department of Computer Science at the Unversity of Reading in January 2018.
 ---
-# Dr Christopher Maynard
-
-## Associate Professor of Computer Science 
-
-I joined the Advanced Computing for Environmental Sciences (ACES) group in the department of Computer Science at the Unversity of Reading in January 2018.
 
 ### Research Interests
 * Numerical methods
@@ -15,13 +24,7 @@ I joined the Advanced Computing for Environmental Sciences (ACES) group in the d
 * Massively parallel computing
 * Programming Models
 * Domain Specific Embedded Language and Compiler
-* Quantum Computing
-
-[My publications](http://scholar.google.co.uk/citations?user=IkpjFloAAAAJ&hl=en
-"My Google Scholar")
-
----
-
+* Quantum Computingc.m.maynard@reading.ac.uk
 
 ### Biography
 
@@ -41,25 +44,6 @@ Where I applied what I had learnt to developing the Unified Model and later
 as a member of the team writing LFRic, a new atmospheric model. I now
 work part-time for the Met Office.
 
-[MO homepage][]
-
----
-
 ### Teaching
 
 Yes, I probably should.
-
----
-
-### Contact details
-Dr Christoper Maynard
-Associate Professor
-Department of Computer Science
-School of Mathematical, Physical and Computer Science
-University of Reading
-Room 156 Polly Vacher  Building  ( Systems Engineering)
-Whiteknights, Reading
-RG6 6AY (Sat Nav RG6 6UR)
-
-Tel: +44  ( 0)118 378 8322    email: c.m.maynard@reading.ac.uk
-Mob: +44 (0)7920 76783
