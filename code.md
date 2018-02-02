@@ -2,8 +2,7 @@
 layout: default
 title: Code
 ---
-This is an example of an additional page you could add to the site (and its navigation).
 
-If you like this template, find our group's other code here:
+This page under contruction.
 
- * [uwsampa on GitHub](https://github.com/uwsampa/)
+At some point in the (hopefully near) future, we will provide links to code repositories from here.

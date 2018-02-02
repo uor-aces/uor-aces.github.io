@@ -20,6 +20,7 @@ julian:
 annette:
     display_name: "Annette Osprey"
     role: staff
+    webpage: bio/annette.md
 
 neil:
     display_name: "Neil Massey"
@@ -29,6 +30,7 @@ neil:
 simon:
     display_name: "Simon Wilson"
     role: staff
+    webpage: bio/simon.md
 
 #wolverine:
 #    display_name: "Wolverine"
