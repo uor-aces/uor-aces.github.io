@@ -7,7 +7,7 @@ scholar: "http://scholar.google.co.uk/citations?user=IkpjFloAAAAJ&hl=en"
 webpages:
     - name: Metoffice
       link: "https://www.metoffice.gov.uk/research/people/christopher-maynard"
-#    - name: Blah
+#    - name: 
 #      link: "http://blah"
 email: c.m.maynard@reading.ac.uk
 phone: +44 ( 0)118 378 8322
@@ -24,7 +24,7 @@ bio-headline: >
 * Massively parallel computing
 * Programming Models
 * Domain Specific Embedded Language and Compiler
-* Quantum Computingc.m.maynard@reading.ac.uk
+* Quantum Computing
 
 ### Biography
 
@@ -46,4 +46,4 @@ work part-time for the Met Office.
 
 ### Teaching
 
-Yes, I probably should.
+Yes, I will at some stage...
