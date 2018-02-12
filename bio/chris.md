@@ -23,7 +23,7 @@ bio-headline: >
 * New computer architectures
 * Massively parallel computing
 * Programming Models
-* [Domain Specific Embedded Language and Compiler](/projects/LFRic.md)
+* [Domain Specific Embedded Language and Compiler](/projects/LFRic.html)
 * Quantum Computing
 
 ### Biography
