@@ -7,7 +7,7 @@ scholar: "http://scholar.google.co.uk/citations?user=IkpjFloAAAAJ&hl=en"
 webpages:
     - name: Metoffice
       link: "https://www.metoffice.gov.uk/research/people/christopher-maynard"
-#    - name: 
+#    - name: Blah
 #      link: "http://blah"
 email: c.m.maynard@reading.ac.uk
 phone: +44 ( 0)118 378 8322
@@ -41,9 +41,10 @@ exploiting such machines and taught aspects of HPC to students on the
 MSc course.  In 2012 I left EPCC and joined the Met Office as a
 <a href="http://www.metoffice.gov.uk/research/people/christopher-maynard">scientific software engineer</a>.
 Where I applied what I had learnt to developing the Unified Model and later
-as a member of the team writing LFRic, a new atmospheric model. I now
-work part-time for the Met Office.
+designing and developing <a
+href="https://www.metoffice.gov.uk/research/modelling-systems/lfric">LFRic,
+a new atmospheric model</a>. I now work part-time for the Met Office and part-time for the Univeristy of Reading
 
 ### Teaching
 
-Yes, I will at some stage...
+Yes, I at some point
