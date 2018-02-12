@@ -43,7 +43,7 @@ MSc course.  In 2012 I left EPCC and joined the Met Office as a
 Where I applied what I had learnt to developing the Unified Model and later
 designing and developing <a
 href="https://www.metoffice.gov.uk/research/modelling-systems/lfric">LFRic,
-a new atmospheric model</a>. I now work part-time for the Met Office and part-time for the Univeristy of Reading
+a new atmospheric model</a>. I now work part-time for the Met Office and part-time for the Univeristy of Reading.
 
 ### Teaching
 
