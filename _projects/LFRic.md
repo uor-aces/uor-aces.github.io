@@ -30,13 +30,35 @@ Domain Specific Languages (DSLs) are one approach to tackling this
 problem. By reducing the domain from say all of mathematics to
 targetting a particular problem it is possible to split the
 mathematics based science code from the performance based parallel
-code. This is known as a <i>separation of concerns</i>.
+code. This is known as a <i>separation of concerns</i>. Once a code is
+structured in the way with well defined APIs between each concern it
+is possible to change one, without changing the other.
+
+A further step is to use the extra information about the mathematics
+which is known to the developer to make choices about how the
+parallelism can be implemented. This can be expressed as
+<i>metadata</i>. If this is embedded in a high-level langauge such as
+C/C++, Fortran or Python then the APIs form in effect a Domain
+Specific Embedded Language (DSEL). If the metadata is sufficiently
+rich it is possible to <i>generate</i> the parallel and performance
+code automatically according to a set of rules.
+
+This is approach being taken by the UK Met Office in developing its
+new weather and climate model for Exascale computers. The model is
+known as
+[LFRic](https://www.metoffice.gov.uk/research/modelling-systems/lfric),
+named after
+[Lewis Fry Richardson](https://www.metoffice.gov.uk/barometer/features/celebrating-100-years-of-scientific-forecasting),
+who attempted the first numerical weather prediction 100 years ago and
+moreover, recognised the parallelism in the problem.
 
 ## LFRic
 The Met Office Science Repository Service for the 
 <a href="https://code.metoffice.gov.uk/trac/lfric">LFRic Project</a>
 
 ## PSyclone
-The git hub repository for PSyclone, the parser and code generator.
+[The Hartree Centre](https://www.hartree.stfc.ac.uk/Pages/home.aspx), at STFC Daresbury is partnering with the Met
+Office to develop the code parser, tranformer and code-generator
+called PSyclone. The git hub repository for PSyclone, the parser and code generator.
 <a href="https://github.com/stfc/PSyclone">PSyclone</a>
 
