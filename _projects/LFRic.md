@@ -16,6 +16,10 @@ layout: project
 ---
 
 ## LFRic
+The Met Office Science Repository Service for the 
+<a href="https://code.metoffice.gov.uk/trac/lfric">LFRic Project</a>
 
-## PSylcone
+## PSyclone
+The git hub repository for PSyclone, the parser and code generator.
+<a href="https://github.com/stfc/PSyclone">PSyclone</a>
 
