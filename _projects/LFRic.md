@@ -17,17 +17,21 @@ layout: project
 In the absence of processor speed increases, performance gains can
 only come through parallelism. MPI is the standard library for
 distributed memory which can be called through an API from science
+code. This allows a relatively straightforward data parallelism to be
+expressed in the code without too much disruption to the maths/science
 code. However, this is no longer
 enough to address the degree of parallelism and does not allow for
 memory hierachies and highly threaded parallelism on complex
 nodes. Directive based programming such as OpenMP or OpenACC can be
-used but these are developing rapidly and the number of necessary
+used but these are developing rapidly and the as number of necessary
 directives increases it can obscure the science code. Moreover, having
 multiple directive groups for different architectures effectively
-prevents single source science code.
+prevents single source science code. Furthermore, future processor
+architectures are likely employ much greater levels of Instruction
+Level Parallelism 
 
 Domain Specific Languages (DSLs) are one approach to tackling this
-problem. By reducing the domain from say all of mathematics to
+problem. By reducing the domain from, for example, all of mathematics, to
 targetting a particular problem it is possible to split the
 mathematics based science code from the performance based parallel
 code. This is known as a <i>separation of concerns</i>. Once a code is
@@ -62,3 +66,21 @@ Office to develop the code parser, tranformer and code-generator
 called PSyclone. The git hub repository for PSyclone, the parser and code generator.
 <a href="https://github.com/stfc/PSyclone">PSyclone</a>
 
+Whilst the development has been successful so far, there is still much
+work to be done to deliver a performance portable model <i>and</i>
+allow science developers to be productive. Moreover, computer science
+research needs to be done to understand how to proceed. In particular
+three big questions need to answered:
+1. How do we express the parallelism and data dependencies of the
+   mathematics in the code?
+1. Once the code has been parsed and is in the form of an Intermediate
+   Representation (IR), what transformations on the IR are need to obtain
+   the necessary performance and optimisations?
+1. Rather than generating high-level langauge code which is then
+   compiled to machine code by a standard compiler, can the the data
+   be coupled via the IR to other compiler technologies such as LLVM
+   or the OMNI compiler. Thus in effect becoming a Domain Specific
+   Embedded Compiler?
+
+
+1.
