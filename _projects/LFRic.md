@@ -63,8 +63,8 @@ The Met Office Science Repository Service for the
 ## PSyclone
 [The Hartree Centre](https://www.hartree.stfc.ac.uk/Pages/home.aspx), at STFC Daresbury is partnering with the Met
 Office to develop the code parser, tranformer and code-generator
-called PSyclone. The git hub repository for PSyclone, the parser and code generator.
-<a href="https://github.com/stfc/PSyclone">PSyclone</a>
+called PSyclone. The git hub repository for 
+<a href="https://github.com/stfc/PSyclone">PSyclone</a>, the parser and code generator.
 
 Whilst the development has been successful so far, there is still much
 work to be done to deliver a performance portable model <i>and</i>
@@ -81,6 +81,3 @@ three big questions need to answered:
    be coupled via the IR to other compiler technologies such as LLVM
    or the OMNI compiler. Thus in effect becoming a Domain Specific
    Embedded Compiler?
-
-
-1.
