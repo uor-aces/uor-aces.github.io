@@ -3,7 +3,7 @@
 
 all: build
 
-BIBBLE = bibble
+BIBBLE = /home/bnl/anaconda3/bin/bibble
 
 _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mkdir -p _includes

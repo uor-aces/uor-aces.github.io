@@ -1,53 +1,56 @@
 <table class="table">
+{% set prev_year = 1900 %}
 <tbody>
-	{%- set prev_year = 1900 %}
-	{%- for entry in entries %}
+	{% for entry in entries %}
 	<tr>
 		<td>
 			<span class="date">
-				{% if entry.fields['year'] != prev_year %}
+				{% if loop.index == 0 %} 
 				<big><strong>{{ entry.fields['year'] }}</strong></big><br />
-				{% endif %}
-				{%- set prev_year = entry.fields['year'] %}
-				{{ entry.fields['month']|monthname }}
+                {% elif entries[loop.index0].fields['year'] != entries[loop.index0-1].fields['year'] %}
+                <big><strong>{{ entry.fields['year'] }}</strong></big><br />
+                {% endif %}
+                {% set mon = entry.fields['month'] %}
+                {% if mon %}
+				{{ entry.fields['month'] |monthname }}
+                {% endif %}
 			</span>
 		</td>
 		<td class="publication">
 			<span class="pubtitle">
-				{%- set url = entry|main_url %}
-				{%- if url %}
+				{% set url = entry|main_url %}
+				{% if url %}
 				<img src="img/pdficon_small.png" width="16"
 					height="16" alt="PDF" />
 				<a href="{{ url|escape }}">{{ entry|title }}</a>.
-				{%- else %}
+				{% else %}
 				{{ entry|title }}.
-				{%- endif %}
+				{% endif %}
 			</span><br />
 			<span class="authors">
 				{{ entry.persons['author']|author_list }}.
 			</span><br />
 			<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span>.
-			{%- if entry.fields['note'] %}
+			{% if entry.fields['note'] %}
 			<span class="note">
 			{{ entry.fields['note']|escape }}.
 			</span>
-			{%- endif %}
+			{% endif %}
 			<br />
 			<span class="links">
-			{%- for type, url in (entry|extra_urls).iteritems() %}
+			{% for type, url in (entry|extra_urls).items() %}
 				[<a href="{{ url|escape }}">{{ type|escape }}</a>]
-			{%- endfor %}
-				{%- if entry.fields['abstract'] %}
-				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.fields['key']}}').slideToggle('fast');return false;">abstract</a>]
-				{%- endif %}
+			{% endfor %}
 			</span>
-			{%- if entry.fields['abstract'] %}
-			<div id="abstract_{{entry.fields['key']}}" class="abstract">
-			{{ entry.fields['abstract'] |escape }}
-			</div>
-			{%- endif %}
+            {% set doi = entry|doi %}
+            {% if doi %}
+            <span class="doi">
+                <img src="img/DOI_logo.svg" width="18" height="18" alt="DOI" />
+                <a href="https://doi.org.{{doi}}">{{doi}}</a>
+            </span>
+            {% endif %}
 		</td>
 	</tr>
-	{%- endfor %}
+	{% endfor %}
 </tbody>
 </table>
