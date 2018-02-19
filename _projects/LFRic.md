@@ -72,6 +72,7 @@ Office to develop the code parser, tranformer and code-generator
 called PSyclone. The git hub repository for 
 <a href="https://github.com/stfc/PSyclone">PSyclone</a>, the parser and code generator.
 
+## DSL Research
 Whilst the development has been successful so far, there is still much
 work to be done to deliver a performance portable model <i>and</i>
 allow science developers to be productive. Moreover, computer science
@@ -87,3 +88,10 @@ three big questions need to answered:
    be coupled via the IR to other compiler technologies such as LLVM
    or the OMNI compiler. Thus in effect becoming a Domain Specific
    Embedded Compiler?
+
+Can this approach be extended to other codes, how big and what should
+be the domain of the DSL? Verification of science codes is an
+important topic, however, even those projects with good process who
+employ testing as part of the development still tend to employ some
+form comparison to known good answers. Can formal verification method
+use the IR of a DSL to produce correct programs?
