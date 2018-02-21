@@ -33,7 +33,7 @@
   journaltitle = {Geoscientific Model Development Discussions},
   author = {Lawrence, Bryan N. and Rezny, Mike and Budich, Reinhard and Bauer, Peter and Behrens, Jörg and Carter, Mick and Deconinck, Willem and Ford, Rupert and Maynard, Christopher and Mullerworth, Steve and Osuna, Carlos and Porter, Andy and Serradell, Kim and Valcke, Sophie and Wedi, Nils and Wilson, Simon},
   date = {2018},
-  keywords = {aces,bnl,onblog,prp17}
+  keywords = {bnl,prp17,onblog,aces}
 }
 
 @unpublished{KunEA16,
@@ -47,7 +47,7 @@
   author = {Kunkel, Julian and Luettgau, Jakob and Lawrence, Bryan N. and Jensen, Jens and Congiu, Giuseppe and Readey, John},
   urldate = {2017-06-23},
   date = {2016},
-  keywords = {aces,bnl,bnl-cv-conf,prp17},
+  keywords = {bnl,prp17,bnl-cv-conf,aces},
   file = {kunkel1-wip-pdsw-discs16.pdf:/Users/BNL28/zotero-storage/storage/PE3Z3XWQ/kunkel1-wip-pdsw-discs16.pdf:application/pdf}
 }
 
@@ -69,8 +69,22 @@
   file = {Geosci. Model Dev. PDF:/Users/BNL28/zotero-storage/storage/N79RNUKT/Balaji et al. - 2017 - CPMIP measurements of real computational performa.pdf:application/pdf}
 }
 
+@inproceedings{MasEA17,
+  timestamp = {2018-02-13T10:55:08Z},
+  location = {{Toulouse, France}},
+  title = {Evolving {{JASMIN}}: {{High}} Performance Analysis and the Data Deluge},
+  doi = {10.2760/383579},
+  abstract = {JASMIN is a highly successful data analysis system, which is used by thousands of academics and their industrial partners to analyse many petabytes of environmental data. The rapidly increasing volume of data stored on JASMIN, and the steadily increasing number of users, is making it necessary to investigate and implement new methods of providing computing resources to the users, storing the data that they produce from their analyses and storing and maintaining a very large archive of environmental data. To achieve this, two main areas of research are described. Firstly, providing users with virtualised services to best utilise the computing resources available. Secondly, using object storage to provide a large, yet affordable, data store and providing the users with tools and interfaces to common environmental data formats, so as to not unduly affect their current work flows.},
+  booktitle = {Proc. of the 2017 Conference on {{Big Data}} from {{Space}} ({{BiDS}}’17)},
+  author = {Massey, Neil and Kershaw, Philip and Pritchard, Matt and Pryor, Matt and Pepler, Sam and Churchill, Jonathan and Lawrence, Bryan},
+  date = {2017},
+  pages = {287--288},
+  keywords = {bnl,bnl-cv,bnl-cv-conf,aces},
+  file = {MasEA17.pdf:/Users/BNL28/zotero-storage/storage/63GBYWD2/MasEA17.pdf:application/pdf}
+}
+
 @unpublished{LueEA17,
-  timestamp = {2018-02-06T08:23:15Z},
+  timestamp = {2018-02-13T10:54:29Z},
   location = {{Denver}},
   title = {Towards {{Structure}}-{{Aware Earth System Data Management}}},
   abstract = {Current storage environments confront domain scientist and data
@@ -85,11 +99,88 @@ builds on top of well established end-user interfaces but utilizes
 scientific metadata to harness a data structure centric perspective.},
   type = {Work in {{Progress}}},
   howpublished = {Work in Progress},
-  eventtitle = {2nd {{International Workshop}} on {{Parallle Data Storage}} and {{Data Intensive Scalable Computing Systems}} ({{PDSW}}-{{DISCS}}'17)},
+  eventtitle = {2nd {{International Workshop}} on {{Parallel Data Storage}} and {{Data Intensive Scalable Computing Systems}} ({{PDSW}}-{{DISCS}}'17)},
   author = {Luettgau, Jakob and Kunkel, Julian and Lawrence, Bryan N. and Fiore, Sandro and Hua, Huang},
   date = {2017-11-13},
-  keywords = {aces,bnl,bnl-cv,bnl-cv-conf},
+  keywords = {bnl,bnl-cv,bnl-cv-conf,aces},
   file = {LueEA17.pdf:/Users/BNL28/zotero-storage/storage/YQUWLZ4C/LueEA17.pdf:application/pdf}
+}
+
+@article{HubbeReducingHPCdatastorageFootprint2013,
+  timestamp = {2018-02-20T19:11:33Z},
+  title = {Reducing the {{HPC}}-Datastorage {{Footprint}} with {{MAFISC}}–{{Multidimensional Adaptive Filtering Improved Scientific Data Compression}}},
+  volume = {28},
+  issn = {1865-2034},
+  url = {http://dx.doi.org/10.1007/s00450-012-0222-4},
+  doi = {10.1007/s00450-012-0222-4},
+  abstract = {Large HPC installations today also include large data storage installations. Data compression can significantly reduce the amount of data, and it was one of our goals to find out, how much compression can do for climate data. The price of compression is, of course, the need for additional computational resources, so our second goal was to relate the savings of compression to the costs it necessitates.In this paper we present the results of our analysis of typical climate data. A lossless algorithm based on these insights is developed and its compression ratio is compared to that of standard compression tools. As it turns out, this algorithm is general enough to be useful for a large class of scientific data, which is the reason we speak of MAFISC as a method for scientific data compression. A numeric problem for lossless compression of scientific data is identified and a possible solution is given. Finally, we discuss the economics of data compression in HPC environments using the example of the German Climate Computing Center.},
+  issue = {2-3},
+  journaltitle = {Comput. Sci.},
+  author = {Hübbe, Nathanael and Kunkel, Julian},
+  urldate = {2018-02-20},
+  date = {2013-05},
+  pages = {231--239},
+  keywords = {aces,Data compression,HDF5,NetCDF}
+}
+
+@article{HubbeEvaluatinglossycompression2013,
+  timestamp = {2018-02-20T19:21:06Z},
+  title = {Evaluating Lossy Compression on Climate Data},
+  volume = {7905},
+  doi = {10.1007/978-3-642-38750-0_26},
+  journaltitle = {International Supercomputing Conference},
+  series = {Lecture Notes in Computer Science},
+  author = {Hübbe, Nathanael and Wegener, Al and Kunkel, Julian Martin and Ling, Yi and Ludwig, Thomas},
+  date = {2013},
+  pages = {343--356},
+  keywords = {aces},
+  file = {e0ef270f5cff61e2f12b2f2068172554854a.pdf:/Users/BNL28/zotero-storage/storage/MXVI9G3A/e0ef270f5cff61e2f12b2f2068172554854a.pdf:application/pdf}
+}
+
+@article{KuhnDynamicfilesystem2009,
+  timestamp = {2018-02-20T19:13:11Z},
+  langid = {english},
+  title = {Dynamic File System Semantics to Enable Metadata Optimizations in {{PVFS}}},
+  volume = {21},
+  issn = {15320626, 15320634},
+  url = {http://doi.wiley.com/10.1002/cpe.1439},
+  doi = {10.1002/cpe.1439},
+  number = {14},
+  journaltitle = {Concurrency and Computation: Practice and Experience},
+  author = {Kuhn, Michael and Kunkel, Julian Martin and Ludwig, Thomas},
+  urldate = {2018-02-20},
+  date = {2009-09-25},
+  pages = {1775--1788},
+  keywords = {aces},
+  file = {318b3288506266db1c02377022f4a067c4c9.pdf:/Users/BNL28/zotero-storage/storage/MXZG64KD/318b3288506266db1c02377022f4a067c4c9.pdf:application/pdf}
+}
+
+@inproceedings{Meisterstudydatadeduplication2012a,
+  timestamp = {2018-02-20T19:23:41Z},
+  title = {A Study on Data Deduplication in {{HPC}} Storage Systems},
+  doi = {10.1109/SC.2012.14},
+  abstract = {Deduplication is a storage saving technique that is highly successful in enterprise backup environments. On a file system, a single data block might be stored multiple times across different files, for example, multiple versions of a file might exist that are mostly identical. With deduplication, this data replication is localized and redundancy is removed – by storing data just once, all files that use identical regions refer to the same unique data. The most common approach splits file data into chunks and calculates a cryptographic fingerprint for each chunk. By checking if the fingerprint has already been stored, a chunk is classified as redundant or unique. Only unique chunks are stored. This paper presents the first study on the potential of data deduplication in HPC centers, which belong to the most demanding storage producers. We have quantitatively assessed this potential for capacity reduction for 4 data centers (BSC, DKRZ, RENCI, RWTH). In contrast to previous deduplication studies focusing mostly on backup data, we have analyzed over one PB (1212 TB) of online file system data. The evaluation shows that typically 20\% to 30\% of this online data can be removed by applying data deduplication techniques, peaking up to 70\% for some data sets. This reduction can only be achieved by a subfile deduplication approach, while approaches based on whole-file comparisons only lead to small capacity savings.},
+  eventtitle = {High {{Performance Computing}}, {{Networking}}, {{Storage}} and {{Analysis}} ({{SC}}), 2012 {{International Conference}} For},
+  booktitle = {High {{Performance Computing}}, {{Networking}}, {{Storage}} and {{Analysis}} ({{SC}}), 2012 {{International Conference}} For},
+  author = {Meister, D. and Kaiser, J. and Brinkmann, A. and Cortes, T. and Kuhn, M. and Kunkel, J.},
+  date = {2012-11},
+  pages = {1--11},
+  keywords = {Educational institutions,Internet,Meteorology,Virtual machining,storage management,Indexes,aces,back-up procedures,backup data,BSC,capacity reduction,computer centres,cryptographic fingerprint calculation,cryptography,Cryptography,data block,data centers,data deduplication,DKRZ,enterprise backup environments,file data,Focusing,HPC centers,HPC storage system,localized data replication,online file system data,Redundancy,redundancy removal,RENCI,replicated databases,RWTH,storage saving technique,subfile deduplication approach},
+  file = {Meister et al. - 2012 - A study on data deduplication in HPC storage syste.pdf:/Users/BNL28/zotero-storage/storage/XBUQEK35/Meister et al. - 2012 - A study on data deduplication in HPC storage syste.pdf:application/pdf;IEEE Xplore Abstract Record:/Users/BNL28/zotero-storage/storage/ZFI96DPP/6468447.html:text/html}
+}
+
+@inproceedings{CarnsSmallfileaccessparallel2009a,
+  timestamp = {2018-02-20T19:26:10Z},
+  title = {Small-File Access in Parallel File Systems},
+  doi = {10.1109/IPDPS.2009.5161029},
+  abstract = {Today's computational science demands have resulted in ever larger parallel computers, and storage systems have grown to match these demands. Parallel file systems used in this environment are increasingly specialized to extract the highest possible performance for large I/O operations, at the expense of other potential workloads. While some applications have adapted to I/O best practices and can obtain good performance on these systems, the natural I/O patterns of many applications result in generation of many small files. These applications are not well served by current parallel file systems at very large scale. This paper describes five techniques for optimizing small-file access in parallel file systems for very large scale systems. These five techniques are all implemented in a single parallel file system (PVFS) and then systematically assessed on two test platforms. A microbenchmark and the mdtest benchmark are used to evaluate the optimizations at an unprecedented scale. We observe as much as a 905\% improvement in small-file create rates, 1,106\% improvement in small-file stat rates, and 727\% improvement in small-file removal rates, compared to a baseline PVFS configuration on a leadership computing platform using 16,384 cores.},
+  eventtitle = {2009 {{IEEE International Symposium}} on {{Parallel Distributed Processing}}},
+  booktitle = {2009 {{IEEE International Symposium}} on {{Parallel Distributed Processing}}},
+  author = {Carns, P. and Lang, S. and Ross, R. and Vilayannur, M. and Kunkel, J. and Ludwig, T.},
+  date = {2009-05},
+  pages = {1--11},
+  keywords = {Laboratories,Application software,Computer science,Mathematics,parallel processing,Benchmark testing,Large-scale systems,file organisation,Concurrent computing,parallel file system,aces,Best practices,File systems,large I/O operation,small-file access,small-file create rate,small-file removal rate,small-file stat rate,System testing,very large scale system},
+  file = {Carns et al. - 2009 - Small-file access in parallel file systems.pdf:/Users/BNL28/zotero-storage/storage/SCHYZ23A/Carns et al. - 2009 - Small-file access in parallel file systems.pdf:application/pdf;IEEE Xplore Abstract Record:/Users/BNL28/zotero-storage/storage/HWA2H6TW/5161029.html:text/html}
 }
 
 

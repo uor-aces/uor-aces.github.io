@@ -16,6 +16,7 @@ julian:
     display_name: "Julian Kunkel"
     role: faculty
     bio: Lecturer in Computer Science
+    webpage: bio/julian.html
 
 annette:
     display_name: "Annette Osprey"
