@@ -9,6 +9,7 @@ people:
   - chris
 
 layout: project
+image: img/LFRicPSycloneBanner.png
 #no link means not linked out of project description box to a project page
 #no-link: true
 #link means go somewhere offsite for a link to the project.
