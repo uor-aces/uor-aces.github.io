@@ -9,7 +9,8 @@ people:
   - chris
 
 layout: project
-image: img/LFRicPSycloneBanner.png
+image: /img/LFRicPSycloneBanner.png
+last-updated: 2018-03-14
 #no link means not linked out of project description box to a project page
 #no-link: true
 #link means go somewhere offsite for a link to the project.
@@ -64,13 +65,13 @@ who attempted the first numerical weather prediction 100 years ago and
 moreover, recognised the parallelism in the problem.
 
 ## LFRic
-The Met Office Science Repository Service for the 
+The Met Office Science Repository Service for the
 <a href="https://code.metoffice.gov.uk/trac/lfric">LFRic Project</a>
 
 ## PSyclone
 [The Hartree Centre](https://www.hartree.stfc.ac.uk/Pages/home.aspx), at STFC Daresbury is partnering with the Met
 Office to develop the code parser, tranformer and code-generator
-called PSyclone. The git hub repository for 
+called PSyclone. The git hub repository for
 <a href="https://github.com/stfc/PSyclone">PSyclone</a>, the parser and code generator.
 
 ## DSL Research

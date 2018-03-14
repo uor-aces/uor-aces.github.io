@@ -13,7 +13,7 @@ people:
 
 layout: project
 image: /img/esiwace_main.jpg
-last-updated: 2018-01-24
+last-updated: 2018-03-12
 ---
 
 ## Preparing for Exascale
