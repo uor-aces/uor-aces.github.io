@@ -3,6 +3,7 @@ layout: staff
 title: Christopher Maynard
 salutation: Dr
 role: Associate Professor of Computer Science
+department: Department of Computer Science
 scholar: "http://scholar.google.co.uk/citations?user=IkpjFloAAAAJ&hl=en"
 webpages:
     - name: Metoffice

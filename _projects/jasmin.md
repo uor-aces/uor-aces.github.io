@@ -5,7 +5,7 @@ subtitle: Research for Big Data Systems
 description: |
     Managing and analysing petascale data requires dedicated computing systems
     with a specialised software environment. ACEs will be working on
-    unerstanding real scientific workflows and how best
+    understanding real scientific workflows and how best
     to deploy such hardware and software infrastructure.
 
 people:

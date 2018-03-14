@@ -17,11 +17,13 @@ julian:
     role: faculty
     bio: Lecturer in Computer Science
     webpage: bio/julian.html
+    image: img/people/julian.jpg
 
 annette:
     display_name: "Annette Osprey"
     role: staff
-    webpage: bio/annette.md
+    webpage: bio/annette
+    image: img/people/annette.jpg
 
 neil:
     display_name: "Neil Massey"
@@ -31,7 +33,8 @@ neil:
 simon:
     display_name: "Simon Wilson"
     role: staff
-    webpage: bio/simon.md
+    webpage: bio/simon
+    image: img/people/simon.jpg
 
 #wolverine:
 #    display_name: "Wolverine"

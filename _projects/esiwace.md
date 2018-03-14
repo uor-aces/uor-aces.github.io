@@ -1,9 +1,9 @@
 ---
 title: ESiWACE
+subtitle: The European Centre for Excellence in Weather and Climate Computing
 
 description:
-  ACES involvement in the European Centre of Excellence in Weather and Climate
-  Computing includes developing new I/O sub-systems capable of handling
+  ACES involvement in ESIWACE includes developing new I/O sub-systems capable of handling
   pre-exascale data flows both at simulation time, and in the analysis environment.
 
 people:

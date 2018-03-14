@@ -9,7 +9,8 @@ webpages:
       link: "https://wr.informatik.uni-hamburg.de/people/julian_kunkel"
 email: tbd
 phone: tbd
-#room:
+room: tbd
+department: Department of Computer Science
 bio-headline: >
     I will be joining ACES on the 1st of April 2018.
 ---

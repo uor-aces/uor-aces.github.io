@@ -4,7 +4,10 @@ subtitle: Domain Specific Language and Compiler for Weather and Climate.
 status: active
 
 description: |
-    Developing PSyclone and the LFRic API
+    Splitting science code from the nitty gritty details of exploiting
+    parallelism on specific computer architectures using DSLs for
+    weather and climate &#58; PSyclone and the new LFRic Weather and Climate
+    Model.
 people:
   - chris
 

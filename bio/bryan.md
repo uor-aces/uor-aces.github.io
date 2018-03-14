@@ -4,6 +4,7 @@ title: Bryan Lawrence
 salutation: Prof
 role: Professor of Weather and Climate Computing
 scholar: https://scholar.google.co.uk/citations?user=KwIWTdQAAAAJ&hl=en
+department: Department of Computer Science
 webpages:
     - name: Met Department
       link: "http://www.met.reading.ac.uk/userpages/bnl.php"
@@ -13,7 +14,7 @@ webpages:
       link: "http://www.bnlawrence.net"
 email: b.n.lawrence@reading.ac.uk
 phone: +44 ( 0)118 378 6507
-#room:
+room: 142
 bio-headline: >
     I hold a three-way joint position between the National Centre for Atmospheric Science and the university departments of Meteorology and Computer Science.
 ---

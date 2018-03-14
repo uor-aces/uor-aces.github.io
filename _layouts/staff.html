@@ -21,10 +21,10 @@ See also:
 <h3> Contact </h3>
 <p>
 {{ page.salutation }} {{page.title}} <br/>
-Department of Computer Science <br/>
+{{page.department}}<br/>
 School of Mathematical, Physical and Computer Science <br/>
 University of Reading <br/>
-{{page.room}} Polly Vacher Building <br/>
+{% if page.room %}Room {{page.room}} Polly Vacher<br/> {% endif %}
 Whiteknights, Reading <br/>
 RG6 6AY<br/>
 </p>
