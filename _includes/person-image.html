@@ -1,6 +1,4 @@
-
 {% assign person = include.person %}
-
 {% comment %}
 
 Usage: {% include person-image.html person=person %}
@@ -10,7 +8,6 @@ Sizing of the SVG is done in a viewBox, and it's resized later in CSS.
 text-decoration hack is for Safari. We don't SVGs to be underlined.
 
 {% endcomment %}
-
 {% if person.image %}
     {% capture image %}
         <img class="rounded-circle profile"
