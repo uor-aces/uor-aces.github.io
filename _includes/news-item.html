@@ -11,8 +11,10 @@
     <span class="fa fa-fw fa-{{ icon }}"></span>
     <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
     <div>
+    {% if post.news_image %} <img src="{{ post.news_image }}" alt="Image" class="left" style="width:200px"> {% endif %}    
     {% if post.shortnews %}
         {{ post.content | remove: '<p>' | remove: '</p>' }}
+
     {% else %}
         <h5> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }} </a> </h5>
         {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
