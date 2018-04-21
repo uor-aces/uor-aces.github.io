@@ -1,8 +1,10 @@
 ---
 ---
 
-$gray: #999;
-$light-gray: #EEE;
+$uor1: #88aa00;
+$uorlight: #88aa00;
+$darkgray: #444;
+$lightgray: #EEE;
 
 /* Space out content a bit */
 body {
@@ -10,44 +12,55 @@ body {
 }
 
 .header {
-    border-bottom: 1px solid $light-gray;
+    border-bottom: 1px solid $uorlight;
     padding-top: 5px;
     padding-left: 8px;
     padding-bottom: 0px;
     margin-bottom: 20px;
     text-align: center;
-    background-color: black;
+    /*background-color: black;*/
     border-radius: 6px;
-
+    height: 4em;
 }
 
 ul.uor {
     padding-top:10px;
     padding-bottom:10px;
     li.nav-item {
-        a.nav-link {color:rgba(11,246,13,1)!important;}
-        a.nav-link:hover {color:white!important;}
+        a.nav-link {color:#d21225ff!important;}
+        a.nav-link:hover {
+            background-color:#d21225ff!important;
+            color:white!important;  }
         a.nav-link.active  {
             color:white!important;
-            background-color: red!important;
+            background-color: #d21225ff!important;
         }
     }
 }
 
-.footer {
+a:hover{
+  color:#d21225ff;
+}
+
+a{
+  color:#d21225ff;
+}
+
+
+div.footer {
     /* padding-top: 19px; */
-    color: $gray;
-    border-top: 1px solid $light-gray;
+    color: $uor1;
+    border-top: 1px solid $uorlight;
     text-align: center;
     font-size: 0.8em;
 
     a:link, a:visited {
-        color: $gray;
+        color: $uor1;
     }
 }
 
 .fa {
-    color: $gray;
+    color: $darkgray;
 }
 a > .fa {
     // make sure that font-awesome icons are underlined in links
@@ -71,16 +84,15 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 326px;
-    height: 76px;
-    margin: 2px 0 8px 0;
+    width: 121px;
+    margin: 10px 0px 8px 0;
 }
 
 /* Front page news. */
 ul.news {
 
     .date {
-        color: $gray;
+        color: $darkgray;
         font-weight: bold;
     }
 
@@ -114,7 +126,7 @@ section {
 
 .noprofile {
     circle {
-        fill: $light-gray;
+        fill: $uorlight;
     }
     text {
         font-weight: 700;
@@ -143,7 +155,7 @@ section {
     }
 
     .bio {
-        color: $gray;
+        color: $darkgray;
     }
 
     .person-name {
@@ -166,7 +178,7 @@ section {
 
 .left {
     float: left;
-    padding: 0 20px 20px 0; 
+    padding: 0 20px 20px 0;
 }
 
 svg {
