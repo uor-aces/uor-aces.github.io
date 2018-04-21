@@ -4,7 +4,7 @@ julian:
     role: faculty
     bio: Lecturer in Computer Science
     webpage: bio/julian.html
-    image: img/people/julian.jpg
+    image: /img/people/julian.jpg
 
 bryan:
     display_name: "Bryan Lawrence"

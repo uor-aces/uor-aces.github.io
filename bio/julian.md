@@ -7,16 +7,16 @@ scholar: https://scholar.google.com/citations?hl=de&user=wTMdjMMAAAAJ
 webpages:
     - name: Hamburg Webpages
       link: "https://wr.informatik.uni-hamburg.de/people/julian_kunkel"
-email: tbd
-phone: tbd
-room: tbd
+email: j.m.kunkel@reading.ac.uk
+phone: +44 (0) 118 378 8218
+room: 135
 department: Department of Computer Science
 bio-headline: >
-    I will be joining ACES on the 1st of April 2018.
 ---
 
 ### Research Interests
 
+* Intelligent storage systems
 * Parallel file systems
 * Performance portability
 * Data reduction techniques
