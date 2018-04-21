@@ -3,27 +3,12 @@ layout: default
 title: Home
 notitle: true
 
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty, staff, postdoc]
-    width: 4
-    image: true
-  - roles: [grad]
-    width: 8
-    image: true
-- - roles: [collab, ugrad, ugrad-alum]
-    width: 5
-    image: false
-  - roles: [alum]
-    width: 7
-    image: false
-
 ---
 
 <div class="jumbotron">
   <p>
     <b>
-    The Advanced Computing for Environmental Sciences (ACES) research group conducts cutting-edge research in computer science to accelerate environmental science.
+    The <a href="aboutus.html">Advanced Computing for Environmental Sciences (ACES)</a> research group conducts cutting-edge research in computer science to accelerate environmental science.
     </b>
   </p>
   <p>
@@ -57,20 +42,5 @@ role-tables:
         {% if p.status != "inactive" %}
             {% include project-card.html project=p %}
         {% endif %}
-    {% endfor %}
-</div>
-
-<div id="people">
-    <h2>People</h2>
-    {% for role-table in page.role-tables %}
-        <div class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
-                </div>
-            {% endfor %}
-        </div>
     {% endfor %}
 </div>

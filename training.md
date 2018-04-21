@@ -3,8 +3,6 @@ layout: default
 title: Training
 ---
 
-Teaching
+<h2>Teaching</h2>
 
-Courses by Collaborators
-
-Summer schools we know about ...
+<h2>Relevant Courses</h2>
