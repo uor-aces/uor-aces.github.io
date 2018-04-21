@@ -1,14 +1,7 @@
-Research Group Web Site Template
+Webpage for the UoR ACES group based on Jekyll
 ================================
 
-This is a [Jekyll][]-based Web site intended for research groups. Your group should be able to get up and running with minimal fuss.
-
-<p align="center">
-<img src="screenshot.png" width="387" height="225" alt="screenshot of the template">
-</p>
-
-This project originated at the University of Washington.  You can see the machinery working live at [our site][sampa].
-
+The webpage is based on a template originated at the University of [Washington][sampa].
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
 
 [sampa]: http://sampa.cs.washington.edu/
