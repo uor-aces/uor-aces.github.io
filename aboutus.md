@@ -12,11 +12,11 @@ role-tables:
     width: 8
     image: true
 - - roles: [collab, ugrad, ugrad-alum]
-    width: 5
+    width: 8
     image: false
-#  - roles: [alum]
-#    width: 7
-#    image: false
+  - roles: [alum]
+    width: 8
+    image: false
 ---
 
 <h2>Mission</h2>
@@ -59,5 +59,4 @@ definitions page)
     {% endfor %}
 </div>
 
-
-Link to the news history page
+<!-- Link to the news history page -->
