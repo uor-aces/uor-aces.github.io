@@ -21,7 +21,7 @@ The following courses are currently offered by us at the University of Reading:
 The following courses related to ACES are offered in the region:
 
 <ul>
-  <li><a href="http://unknown">Test</a></li>
+  <li><a href="http://unknown">Test</a> (by ZZ)</li>
 </ul>
 
 <h2>Upcomming events</h2>
