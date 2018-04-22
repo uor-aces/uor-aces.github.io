@@ -1,16 +1,54 @@
 ---
 layout: default
 title: Collaboration
+
+# groups of columns of {roles: list, width: num, image: bool}
+role-tables:
+- - roles: [collabinst, collab]
+    width: 8
+    image: false
 ---
 
-List our major collaboration partners
+<h2> Service and consulting </h2>
 
-List our Collaborators
+<p>
+Around our research interests, we offer services for scientists and industry.
+This includes training and consulting around our <a href="/aboutus">research themes</a>.
+</p>
 
-Information for prospective Students
+<h2>Training opportunities</h2>
 
-Information for prospective collaborators and/or clients (service)
+<p>
+We offer various <a href="/training/">courses in the curriculum</a> of the University of Reading, but also upon request.
+</p>
 
-Contacts
+<h3>Students</h3>
 
-Link to events page (at /events)
+<p>
+We supervise BSc, MSc and PhD studies revolving around our <a href="/aboutus">research themes</a>.
+</p>
+
+<h3>Scientists and industry</h3>
+
+<p>
+TODO
+</p>
+
+
+<div id="collaborations">
+    <h2>Collaborations</h2>
+    {% for role-table in page.role-tables %}
+        <div class="people row justify-content-between">
+            {% for role-column in role-table %}
+                <div class="col-md-{{ role-column.width }}">
+                    {% for role in role-column.roles %}
+                        {% include role-people.html role=role image=role-column.image %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>
+
+
+{% include contact.html %}

@@ -1,5 +1,5 @@
 name: Advanced Computing for Environmental Sciences
-url: http://awesome.example.edu
+url: https://TODO
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -25,6 +25,8 @@ roles:
     name: Past Undergraduate Students
   - key: collab
     name: Collaborators
+  - key: collabinst
+    name: Institutions
 
 footer_description: >
  Advanced Computing for Environmental Sciences
@@ -39,6 +41,10 @@ base: ''
 # make pages for the _projects folder
 collections:
   projects:
+    output: true
+  courses:
+    output: true
+  event:
     output: true
 
 # Navigation bar links.

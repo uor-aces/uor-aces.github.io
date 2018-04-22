@@ -28,11 +28,14 @@ ACES conducts cutting-edge research in computer science to accelerate environmen
 <p>
 Current projects include work on
 <ul>
-<li>developing software to aid scientific programming on next generation highly parallel computing systems</li>
-<li>new software and hardware systems for handling the high volume and high velocity data typical of environmental science workflows</li>
-<li>exploiting machine learning in environmental science</li>
+<li>developing software to <a style="color:#2c1decff" href="/background.html#programmability">aid scientific programming</a> on next generation <a style="color:#bab149" href="/background.html#hpc">highly parallel computing systems</a></li>
+<li><a style="color:#2c1decff" href="/background.html#dataManagement">new software and hardware systems for handling the high volume and high velocity data</a> typical of <a href="/background.html#env" style="color:#88aa00">environmental science</a> workflows</li>
+<li>exploiting <a style="color:#2c1decff" href="/background.html#ML">machine learning</a> in <a href="/background.html#env" style="color:#88aa00">environmental science</a></li>
 </ul>
 </p>
+
+
+
 
 <p>
 ACES is based in the <a href="http://www.reading.ac.uk/computer-science/">
@@ -42,7 +45,7 @@ Computer Science Department</a> at the <a href="http://www.reading.ac.uk"> Unive
 Blurb  - refined mission statement linking to terms and a link to a complete
 definitions page)
 
-<h2>Contact</h2>
+{% include contact.html %}
 
 <div id="people">
     <h2>People</h2>
@@ -60,3 +63,6 @@ definitions page)
 </div>
 
 <!-- Link to the news history page -->
+<p style="margin-top:15px">
+We organize and participate in various <a href="/events">events</a>.
+</p>

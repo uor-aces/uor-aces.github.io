@@ -1,0 +1,50 @@
+
+{% assign course = include.course %}
+
+{% if course.link %}
+    {% assign course-url = course.link %}
+{% else %}
+    {% capture course-url %}{{site.base}}{{course.url}}.html{% endcapture %}
+{% endif %}
+
+
+<div class="card">
+    <div class="card-body">
+        {% if course.image %}
+            {% assign imgurl = course.image %}
+            {% capture init %}{{ course.image | slice: 0,1 }}{% endcapture %}
+            {% if init == "/" %}
+                {% capture imgurl %}{{site.base}}{{course.image}}{% endcapture %}
+            {% endif %}
+            <a href="{{ course-url }}">
+                <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{course.title}}"/>
+            </a>
+        {% endif %}
+        {% if course.notitle != true %}
+            <h4 class="card-title">
+                {{  course.title }}
+            </h4>
+        {% endif %}
+        {% if course.subtitle != null and course.subtitle != "" %}
+            <h6 class="card-subtitle mb-2 text-muted">
+                {{  course.subtitle }}
+            </h6>
+        {% endif %}
+        <div class="card-text">
+            {{ course.description | markdownify }}
+        </div>
+        {% if course.no-link != true or course.link %}
+            <a href="{{ course-url }}"> Read more &raquo;</a>
+        {% endif %}
+    </div>
+    {% if course.people %}
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            {% for uname in course.people %}
+                <div>
+                    {% assign person = site.data.people[uname]  %}
+                    {% include person-image.html person=person %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
