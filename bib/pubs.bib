@@ -26,16 +26,6 @@
   file = {IEEE Xplore Abstract Record:/Users/BNL28/zotero-storage/storage/766H76DP/abstractAuthors.html:text/html}
 }
 
-@article{LawChasm17,
-  timestamp = {2018-02-12T16:11:49Z},
-  title = {Crossing the {{Chasm}}: {{How}} to Develop Weather and Climate Models for next Generation Computers.},
-  doi = {10.5194/gmd-2017-186},
-  journaltitle = {Geoscientific Model Development Discussions},
-  author = {Lawrence, Bryan N. and Rezny, Mike and Budich, Reinhard and Bauer, Peter and Behrens, Jörg and Carter, Mick and Deconinck, Willem and Ford, Rupert and Maynard, Christopher and Mullerworth, Steve and Osuna, Carlos and Porter, Andy and Serradell, Kim and Valcke, Sophie and Wedi, Nils and Wilson, Simon},
-  date = {2018},
-  keywords = {bnl,prp17,onblog,aces}
-}
-
 @unpublished{KunEA16,
   timestamp = {2018-02-06T08:23:26Z},
   location = {{Salt Lake City}},
@@ -106,35 +96,6 @@ scientific metadata to harness a data structure centric perspective.},
   file = {LueEA17.pdf:/Users/BNL28/zotero-storage/storage/YQUWLZ4C/LueEA17.pdf:application/pdf}
 }
 
-@article{GIMLEJKZYD17,
-	author	 = {Nabeeh Jumah and Julian Kunkel and Günther Zängl and Hisashi Yashiro and Thomas Dubos and Yann Meurdesoif},
-	title	 = {{GGDML: Icosahedral Models Language Extensions}},
-	year	 = {2017},
-	month	 = {06},
-	editor	 = {},
-	publisher	 = {Cosmos Scholars Publishing House},
-	journal	 = {Journal of Computer Science Technology Updates},
-	series	 = {Volume 4, Number 1},
-	pages	 = {1--10},
-	doi	 = {http://dx.doi.org/10.15379/2410-2938.2017.04.01.01},
-	abstract	 = {The optimization opportunities of a code base are not completely exploited by compilers. In fact, there are optimizations that must be done within the source code. Hence, if the code developers skip some details, some performance is lost. Thus, the use of a general-purpose language to develop a performance-demanding software -e.g. climate models- needs more care from the developers. They should take into account hardware details of the target machine.  Besides, writing a high-performance code for one machine will have a lower performance on another one. The developers usually write multiple optimized sections or even code versions for the different target machines. Such codes are complex and hard to maintain.  In this article we introduce a higher-level code development approach, where we develop a set of extensions to the language that is used to write a model’s code. Our extensions form a domain-specific language (DSL) that abstracts domain concepts and leaves the lower level details to a configurable source-to-source translation process.  The purpose of the developed extensions is to support the icosahedral climate/atmospheric model development. We have started with the three icosahedral models: DYNAMICO, ICON, and NICAM. The collaboration with the scientists from the weather/climate sciences enabled agreed-upon extensions. When we have suggested an extension we kept in mind that it represents a higher-level domain-based concept, and that it carries no lower-level details.  The introduced DSL (GGDML- General Grid Definition and Manipulation Language) hides optimization details like memory layout. It reduces code size of a model to less than one third its original size in terms of lines of code. The development costs of a model with GGDML are therefore reduced significantly.},
-	url	 = {http://www.cosmosscholars.com/images/JCSTU_V4N1/JCSTU-V4N1A1-Jumah.pdf},
-}
-
-@article{TDTSOCAFQC17,
-	author	 = {Julian Kunkel and Anastasiia Novikova and Eugen Betke},
-	title	 = {{Towards Decoupling the Selection of Compression Algorithms from Quality Constraints – an Investigation of Lossy Compression Efficiency}},
-	year	 = {2017},
-	month	 = {12},
-	editor	 = {Jack Dongarra and Vladimir Voevodin},
-	journal	 = {Supercomputing Frontiers and Innovations},
-	series	 = {Volume 4, Number 4},
-	pages	 = {17--33},
-	doi	 = {http://dx.doi.org/10.14529/jsfi1704},
-	abstract	 = {Data intense scientific domains use data compression to reduce the storage space needed. Lossless data compression preserves information accurately but lossy data compression can achieve much higher compression rates depending on the tolerable error margins. There are many ways of defining precision and to exploit this knowledge, therefore, the field of lossy compression is subject to active research. From the perspective of a scientist, the qualitative definition about the implied loss of data precision should only matter.With the Scientific Compression Library (SCIL), we are developing a meta-compressor that allows users to define various quantities for acceptable error and expected performance behavior. The library then picks a suitable chain of algorithms yielding the user's requirements, the ongoing work is a preliminary stage for the design of an adaptive selector. This approach is a crucial step towards a scientifically safe use of much-needed lossy data compression, because it disentangles the tasks of determining scientific characteristics of tolerable noise, from the task of determining an optimal compression strategy. Future algorithms can be used without changing application code. In this paper, we evaluate various lossy compression algorithms for compressing different scientific datasets (Isabel, ECHAM6), and focus on the analysis of synthetically created data that serves as blueprint for many observed datasets. We also briefly describe the available quantities of SCIL to define data precision and introduce two efficient compression algorithms for individual data points. This shows that the best algorithm depends on user settings and data properties.},
-	url	 = {http://superfri.org/superfri/article/view/149},
-}
-
 @article{HubbeReducingHPCdatastorageFootprint2013,
   timestamp = {2018-02-20T19:11:33Z},
   title = {Reducing the {{HPC}}-Datastorage {{Footprint}} with {{MAFISC}}–{{Multidimensional Adaptive Filtering Improved Scientific Data Compression}}},
@@ -149,7 +110,7 @@ scientific metadata to harness a data structure centric perspective.},
   urldate = {2018-02-20},
   date = {2013-05},
   pages = {231--239},
-  keywords = {aces,Data compression,HDF5,NetCDF}
+  keywords = {NetCDF,aces,Data compression,HDF5}
 }
 
 @article{HubbeEvaluatinglossycompression2013,
@@ -211,3 +172,61 @@ scientific metadata to harness a data structure centric perspective.},
   keywords = {Laboratories,Application software,Computer science,Mathematics,parallel processing,Benchmark testing,Large-scale systems,file organisation,Concurrent computing,parallel file system,aces,Best practices,File systems,large I/O operation,small-file access,small-file create rate,small-file removal rate,small-file stat rate,System testing,very large scale system},
   file = {Carns et al. - 2009 - Small-file access in parallel file systems.pdf:/Users/BNL28/zotero-storage/storage/SCHYZ23A/Carns et al. - 2009 - Small-file access in parallel file systems.pdf:application/pdf;IEEE Xplore Abstract Record:/Users/BNL28/zotero-storage/storage/HWA2H6TW/5161029.html:text/html}
 }
+
+@article{LawrenceCrossingchasmhow2018,
+  timestamp = {2018-05-08T07:52:26Z},
+  langid = {english},
+  title = {Crossing the Chasm: How to Develop Weather and Climate Models for next Generation Computers?},
+  volume = {11},
+  issn = {1991-9603},
+  url = {https://www.geosci-model-dev.net/11/1799/2018/},
+  doi = {10.5194/gmd-11-1799-2018},
+  shorttitle = {Crossing the Chasm},
+  number = {5},
+  journaltitle = {Geoscientific Model Development},
+  author = {Lawrence, Bryan N. and Rezny, Michael and Budich, Reinhard and Bauer, Peter and Behrens, Jörg and Carter, Mick and Deconinck, Willem and Ford, Rupert and Maynard, Christopher and Mullerworth, Steven and Osuna, Carlos and Porter, Andrew and Serradell, Kim and Valcke, Sophie and Wedi, Nils and Wilson, Simon},
+  urldate = {2018-05-08},
+  date = {2018-05-08},
+  pages = {1799--1821},
+  keywords = {bnl-cv,bnl-cv-refjnl,aces}
+}
+
+@article{NabeehJumahGGDMLIcosahedralModels2017,
+  timestamp = {2018-05-08T08:04:55Z},
+  title = {{{GGDML}}: {{Icosahedral Models Language Extensions}}},
+  volume = {4},
+  issn = {24102938},
+  url = {http://www.cosmosscholars.com/current-issue-jcstu/79-abstracts/jcstu/708-abstract-ggdml-icosahedral-models-language-extensions},
+  doi = {10.15379/2410-2938.2017.04.01.01},
+  shorttitle = {{{GGDML}}},
+  abstract = {The optimization opportunities of a code base are not completely exploited by compilers. In fact, there are optimizations that must be done within the source code. Hence, if the code developers skip some details, some performance is lost. Thus, the use of a general-purpose language to develop a performance-demanding software -e.g. climate models- needs more care from the developers. They should take into account hardware details of the target machine.  Besides, writing a high-performance code for one machine will have a lower performance on another one. The developers usually write multiple optimized sections or even code versions for the different target machines. Such codes are complex and hard to maintain.  In this article we introduce a higher-level code development approach, where we develop a set of extensions to the language that is used to write a model’s code. Our extensions form a domain-specific language (DSL) that abstracts domain concepts and leaves the lower level details to a configurable source-to-source translation process.  The purpose of the developed extensions is to support the icosahedral climate/atmospheric model development. We have started with the three icosahedral models: DYNAMICO, ICON, and NICAM. The collaboration with the scientists from the weather/climate sciences enabled agreed-upon extensions. When we have suggested an extension we kept in mind that it represents a higher-level domain-based concept, and that it carries no lower-level details.  The introduced DSL (GGDML- General Grid Definition and Manipulation Language) hides optimization details like memory layout. It reduces code size of a model to less than one third its original size in terms of lines of code. The development costs of a model with GGDML are therefore reduced significantly.},
+  number = {1},
+  journaltitle = {Journal of Computer Science Technology Updates},
+  author = {{Nabeeh Jumah} and {Julian Kunkel} and {Günther Zängel} and {Hisashi Yashiro} and {Thomas Dubos} and {Yann Meurdesoif}},
+  urldate = {2018-05-08},
+  date = {2017-06-22},
+  pages = {1--10},
+  keywords = {aces}
+}
+
+@article{KunkelDecouplingSelectionCompression2017,
+  timestamp = {2018-05-08T08:12:03Z},
+  langid = {english},
+  title = {Towards {{Decoupling}} the {{Selection}} of {{Compression Algorithms}} from {{Quality Constraints}} – {{An Investigation}} of {{Lossy Compression Efficiency}}},
+  volume = {4},
+  rights = {Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a~ Creative Commons Attribution License ~that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.},
+  issn = {2313-8734},
+  url = {http://www.superfri.org/superfri/article/view/149},
+  doi = {10.14529/jsfi170402},
+  abstract = {Data intense scientific domains use data compression to reduce the storage space needed. Lossless data compression preserves information accurately but lossy data compression can achieve much higher compression rates depending on the tolerable error margins. There are many ways of defining precision and to exploit this knowledge, therefore, the field of lossy compression is subject to active research. From the perspective of a scientist, the qualitative definition about the implied loss of data precision should only matter.With the Scientific Compression Library (SCIL), we are developing a meta-compressor that allows users to define various quantities for acceptable error and expected performance behavior. The library then picks a suitable chain of algorithms yielding the user’s requirements, the ongoing work is a preliminary stage for the design of an adaptive selector. This approach is a crucial step towards a scientifically safe use of much-needed lossy data compression, because it disentangles the tasks of determining scientific characteristics of tolerable noise, from the task of determining an optimal compression strategy. Future algorithms can be used without changing application code.In this paper, we evaluate various lossy compression algorithms for compressing different scientific datasets (Isabel, ECHAM6), and focus on the analysis of synthetically created data that serves as blueprint for many observed datasets. We also briefly describe the available quantitiesof SCIL to define data precision and introduce two efficient compression algorithms for individualdata points. This shows that the best algorithm depends on user settings and data properties.},
+  number = {4},
+  journaltitle = {Supercomputing Frontiers and Innovations},
+  author = {Kunkel, Julian Martin and Novikova, Anastasiia and Betke, Eugen},
+  urldate = {2018-05-08},
+  date = {2017-11-21},
+  pages = {17--33},
+  keywords = {aces},
+  file = {Kunkel et al. - 2017 - Towards Decoupling the Selection of Compression Al.pdf:/Users/BNL28/zotero-storage/storage/6X2WKDY7/Kunkel et al. - 2017 - Towards Decoupling the Selection of Compression Al.pdf:application/pdf;Snapshot:/Users/BNL28/zotero-storage/storage/AL7385SY/149.html:text/html}
+}
+
+
