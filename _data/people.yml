@@ -4,7 +4,7 @@ julian:
     role: faculty
     bio: Lecturer in Computer Science
     webpage: bio/julian.html
-    image: /img/people/julian.jpg
+    image: /img/people/julian2.jpg
 
 bryan:
     display_name: "Bryan Lawrence"
@@ -18,6 +18,7 @@ chris:
     role: faculty
     bio: Associate Professor in Computer Science
     webpage: bio/chris.html
+    image: /img/people/chris.jpg
 
 annette:
     display_name: "Annette Osprey"
