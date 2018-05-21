@@ -3,7 +3,7 @@ julian:
     display_name: "Julian Kunkel"
     role: faculty
     bio: Lecturer in Computer Science
-    webpage: bio/julian.html
+    webpage: /bio/julian.html
     image: /img/people/julian2.jpg
 
 bryan:
@@ -17,19 +17,19 @@ chris:
     display_name: "Chris Maynard"
     role: faculty
     bio: Associate Professor in Computer Science
-    webpage: bio/chris.html
+    webpage: /bio/chris.html
     image: /img/people/chris.jpg
 
 annette:
     display_name: "Annette Osprey"
     role: staff
-    webpage: bio/annette
+    webpage: /bio/annette
     image: img/people/annette.jpg
 
 simon:
     display_name: "Simon Wilson"
     role: staff
-    webpage: bio/simon
+    webpage: /bio/simon
     image: img/people/simon.jpg
 
 
