@@ -32,7 +32,6 @@ simon:
     webpage: /bio/simon
     image: img/people/simon.jpg
 
-
 neil:
     display_name: "Neil Massey"
     role: collab
@@ -44,17 +43,21 @@ jon:
     role: collab
     bio: Chief Technology Officer at the <a href="http://www.the-iea.org/about/team/">Institute of Environmental Analytics</a>
 
+ncas:
+    display_name: "The UK National Centre for Atmospheric Science"
+    image: img/people/ncas.jpg
+    bio: The NCAS Computational and Modelling Services unit.
+    webpage: http://cms.ncas.ac.uk
+    role: collabinst
+
+dkrz:
+    display_name: "DKRZ"
+    role: collabinst
+    webpage: https://www.dkrz.de
+    bio: The German Climate Computing Centre
+    image: img/people/dkrz.jpg
 
 
 
-#wolverine:
-#    display_name: "Wolverine"
-#    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-#    github: wolverine
 #    role: postdoc
-
-#storm:
-#    display_name: "Storm"
-#    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
 #    role: ugrad
-#    image: /img/people/storm.png

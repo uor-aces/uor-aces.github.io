@@ -29,6 +29,8 @@ roles:
     name: Past Undergraduate Students
   - key: collab
     name: Collaborators
+  - key: collabinst
+    name: Institutional Collaborators
 
 footer_description: >
  Advanced Computing for Environmental Science <br/>

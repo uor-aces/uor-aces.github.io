@@ -3,21 +3,6 @@ layout: default
 title: Home
 notitle: true
 
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty, staff, postdoc]
-    width: 4
-    image: true
-  - roles: [grad]
-    width: 4
-    image: true
-- - roles: [collab, ugrad, ugrad-alum]
-    width: 4
-    image: false
-  - roles: [alum]
-    width: 4
-    image: false
-
 ---
 
 <div class="jumbotron">
@@ -39,7 +24,8 @@ role-tables:
     </p>
 {% endif %}
 
-<h2>Research</h2>
+<h2>Selected Research</h2>
+<p>(A complete list of research topics appears <a href="/research">here</a>.)</p>
 <div class="card-columns">
     {% comment %}
     Sort the projects by date, putting those without dates last

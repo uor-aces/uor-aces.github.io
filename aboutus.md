@@ -13,17 +13,20 @@ expansion: >
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty, staff, postdoc]
-    width: 8
+- - roles: [faculty]
+    width: 4
     image: true
-  - roles: [grad]
-    width: 8
+  - roles: [staff, postdoc]
+    width: 4
     image: true
-- - roles: [collab, ugrad, ugrad-alum]
-    width: 8
+  - roles: [collab]
+    width: 4
     image: false
-  - roles: [alum]
+- - roles: [collabinst]
     width: 8
+    image: true
+- - roles: [ugrad, alum, ugrad-alum]
+    width: 4
     image: false
 
 ---
@@ -31,7 +34,13 @@ role-tables:
 <div class="jumbotron">
   <p> <b> {{site.headline}} </b> </p>
   <p> {{page.expansion}} </p>
+  <p> {{site.location}} </p>
 </div>
+
+<p> As well as research, we are involved in both undergraduate teaching and providing training
+and consultancy for third parties, including the wider scientific community
+and industry. Get in touch with one of us if you are interested (contact details
+are on individual web pages linked below). </p>
 
 <div id="people">
     {% for role-table in page.role-tables %}
