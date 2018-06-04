@@ -1,6 +1,10 @@
 name: Advanced Computing for Environmental Science
 url: http://uor-aces.github.org
 
+headline: The Advanced Computing for Environmental Science (ACES) research group conducts cutting-edge research in computer science to accelerate environmental science.
+
+location: ACES is based in the <a href="http://www.reading.ac.uk/computer-science/"> Computer Science Department</a> at the <a href="http://www.reading.ac.uk"> University of Reading</a>.
+
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
 # colorize code snippets with the pygments module
@@ -45,6 +49,8 @@ collections:
 navigation:
   - title: Home
     link: /
+  - title: About
+    link: /aboutus
   - title: Research
     link: /research.html
   - title: Publications

@@ -29,5 +29,6 @@ Whiteknights, Reading <br/>
 RG6 6AY<br/>
 </p>
 
-<p> Phone: {{page.phone}}; Email: {{page.email}} </p>
+<p> {%if page.phone %} Phone: {{page.phone}}; {% endif %}
+    {% if page.email %} Email: {{page.email}} {% endif %}</p>
 </div>
