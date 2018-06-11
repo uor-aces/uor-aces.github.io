@@ -1,0 +1,50 @@
+
+{% assign event = include.event %}
+
+{% if event.link %}
+    {% assign event-url = event.link %}
+{% else %}
+    {% capture event-url %}{{site.base}}{{event.url}}.html{% endcapture %}
+{% endif %}
+
+
+<div class="card">
+    <div class="card-body">
+        {% if event.image %}
+            {% assign imgurl = event.image %}
+            {% capture init %}{{ event.image | slice: 0,1 }}{% endcapture %}
+            {% if init == "/" %}
+                {% capture imgurl %}{{site.base}}{{event.image}}{% endcapture %}
+            {% endif %}
+            <a href="{{ event-url }}">
+                <img class="img-fluid mb-3" src="{{imgurl}}" alt="{{event.title}}"/>
+            </a>
+        {% endif %}
+        {% if event.notitle != true %}
+            <h4 class="card-title">
+                {{  event.title }}
+            </h4>
+        {% endif %}
+        {% if event.subtitle != null and event.subtitle != "" %}
+            <h6 class="card-subtitle mb-2 text-muted">
+                {{  event.subtitle }}
+            </h6>
+        {% endif %}
+        <div class="card-text">
+            {{ event.description | markdownify }}
+        </div>
+        {% if event.no-link != true or event.link %}
+            <a href="{{ event-url }}"> Read more &raquo;</a>
+        {% endif %}
+    </div>
+    {% if event.people %}
+        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
+            {% for uname in event.people %}
+                <div>
+                    {% assign person = site.data.people[uname]  %}
+                    {% include person-image.html person=person %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
