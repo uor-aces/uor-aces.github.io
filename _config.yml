@@ -42,10 +42,13 @@ front_page_news: 6
 # Base pathname for links.
 base: ''
 
+future: true
 # make pages for the _projects folder
 collections:
-  projects:
-    output: true
+    projects:
+        output: true
+    events:
+        output: true
 
 # Navigation bar links.
 navigation:

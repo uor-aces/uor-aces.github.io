@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+
+<div class="event">
+{{ content }}
+</div>
+
+<h2> People </h2>
+<section class="people course-people">
+    {% for uname in page.people %}
+        {% assign person = site.data.people[uname] %}
+        {% include person.html person=person image=true%}
+    {% endfor %}
+</section>
