@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.webpage %}
+<p>
+(<a href="{{page.webpage}}">Meeting Webpage</a>)
+</p>
+{% endif %}
+
 
 <div class="event">
 {{ content }}
