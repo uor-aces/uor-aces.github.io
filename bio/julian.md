@@ -5,8 +5,10 @@ salutation: Dr
 role: Lecturer in Computer Science
 scholar: https://scholar.google.com/citations?hl=de&user=wTMdjMMAAAAJ
 webpages:
-    - name: Hamburg Webpages
-      link: "https://wr.informatik.uni-hamburg.de/people/julian_kunkel"
+    - name: Webpages of the High-Performance Storage Group
+      link: "https://hps.vi4io.org/about/people/julian_kunkel"
+    - name: Twitter account
+      link: https://twitter.com/vi4io
 email: j.m.kunkel@reading.ac.uk
 phone: +44 (0) 118 378 8218
 room: 135
