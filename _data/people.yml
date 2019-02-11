@@ -30,6 +30,7 @@ daniel:
     display_name: "Daniel Galea"
     role: phd
     webpage: /bio/daniel
+    image: /img/people/daniel.jpg
 
 kyle:
     display_name: "Kyle Spindler"
