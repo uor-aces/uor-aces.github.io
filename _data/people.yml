@@ -26,6 +26,17 @@ annette:
     webpage: /bio/annette
     image: img/people/annette.jpg
 
+daniel:
+    display_name: "Daniel Galea"
+    role: staff
+    webpage: /bio/daniel
+
+kyle:
+    display_name: "Kyle Spindler"
+    role: staff
+    webpage: /bio/kyle
+    image: https://hps.vi4io.org/_media/about/people/kyle_spindler.jpg?w=120&tok=8a51a0
+
 simon:
     display_name: "Simon Wilson"
     role: staff
