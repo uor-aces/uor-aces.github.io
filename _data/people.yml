@@ -28,12 +28,12 @@ annette:
 
 daniel:
     display_name: "Daniel Galea"
-    role: staff
+    role: phd
     webpage: /bio/daniel
 
 kyle:
     display_name: "Kyle Spindler"
-    role: staff
+    role: phd
     webpage: /bio/kyle
     image: https://hps.vi4io.org/_media/about/people/kyle_spindler.jpg?w=120&tok=8a51a0
 

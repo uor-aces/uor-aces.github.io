@@ -21,6 +21,8 @@ roles:
     name: Research Staff
   - key: postdoc
     name: Researchers
+  - key: phd
+    name: PhD Students
   - key: grad
     name: Graduate Students
   - key: ugrad

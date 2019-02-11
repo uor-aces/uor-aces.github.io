@@ -19,6 +19,9 @@ role-tables:
   - roles: [staff, postdoc]
     width: 4
     image: true
+  - roles: [phd]
+    width: 4
+    image: true
   - roles: [collab]
     width: 4
     image: false
