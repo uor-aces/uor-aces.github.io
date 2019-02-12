@@ -124,6 +124,10 @@ section {
     object-fit: cover; // makes sure it's cropped
 }
 
+.institution-logo{
+  width: 150px;
+}
+
 .noprofile {
     circle {
         fill: $uorlight;

@@ -64,7 +64,7 @@ ncas:
 
 dkrz:
     display_name: "DKRZ"
-    role: collabinst
+    role: collabinst    
     webpage: https://www.dkrz.de
     bio: The German Climate Computing Centre
     image: img/people/dkrz.jpg
