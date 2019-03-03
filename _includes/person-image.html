@@ -10,7 +10,11 @@ text-decoration hack is for Safari. We don't SVGs to be underlined.
 {% endcomment %}
 {% if person.image %}
     {% capture image %}
+      {% if person.role == "collabinst" %}
+        <img class="institution-logo"
+      {% else %}
         <img class="rounded-circle profile"
+      {% endif %}
              alt="{{ person.display_name }}"
              title="{{ person.display_name }}"
              src="{{ site.base }}{{ person.image }}" />
