@@ -20,6 +20,13 @@ chris:
     webpage: /bio/chris.html
     image: /img/people/chris.jpg
 
+luciana:
+    display_name: "Luciana Pedro"
+    role: staff
+    bio: Postdoctoral Researcher
+    webpage: https://hps.vi4io.org/about/people/luciana_rocha_pedro
+    image: https://hps.vi4io.org/_media/about/people/lucy.jpg?w=120&tok=e6c56c
+
 annette:
     display_name: "Annette Osprey"
     role: staff
@@ -64,7 +71,7 @@ ncas:
 
 dkrz:
     display_name: "DKRZ"
-    role: collabinst    
+    role: collabinst
     webpage: https://www.dkrz.de
     bio: The German Climate Computing Centre
     image: img/people/dkrz.jpg
