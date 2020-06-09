@@ -62,5 +62,5 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications.html
-  - title: Events
-    link: /events.html
+  #- title: Events
+  #  link: /events.html
