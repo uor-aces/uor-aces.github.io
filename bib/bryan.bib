@@ -1,0 +1,318 @@
+
+@article{2018arXiv180907267A,
+  title = {{{LFRic}}: {{Meeting}} the Challenges of Scalability and Performance Portability in {{Weather}} and {{Climate}} Models},
+  author = {Adams, A. V. and Ford, R. W. and Hambley, M. and Hobson, J. M. and Kavcic, I. and Maynard, C. M. and Melvin, T. and Mueller, E. H and Mullerworth, S. and Porter, A. R. and Rezny, M. and Shipway, B. J. and Wong, R.},
+  date = {2018-09},
+  journaltitle = {ArXiv e-prints},
+  url = {https://arxiv.org/abs/1809.07267},
+  archivePrefix = {arXiv},
+  eprint = {1809.07267},
+  eprintclass = {cs.DC},
+  eprinttype = {arxiv},
+  keywords = {aces,and Cluster Computing,Computer Science - Distributed,Parallel,Weather and Climate modelling}
+}
+
+@article{BalEA17p,
+  title = {{{CPMIP}}: Measurements of Real Computational Performance of {{Earth}} System Models in {{CMIP6}}},
+  shorttitle = {{{CPMIP}}},
+  author = {Balaji, V. and Maisonnave, E. and Zadeh, N. and Lawrence, B. N. and Biercamp, J. and Fladrich, U. and Aloisio, G. and Benson, R. and Caubel, A. and Durachta, J. and Foujols, M.-A. and Lister, G. and Mocavero, S. and Underwood, S. and Wright, G.},
+  date = {2017-01-02},
+  journaltitle = {Geosci. Model Dev.},
+  shortjournal = {Geosci. Model Dev.},
+  volume = {10},
+  pages = {19--34},
+  issn = {1991-9603},
+  doi = {10.5194/gmd-10-19-2017},
+  abstract = {A climate model represents a multitude of processes on a variety of timescales and space scales: a canonical example of multi-physics multi-scale modeling. The underlying climate system is physically characterized by sensitive dependence on initial conditions, and natural stochastic variability, so very long integrations are needed to extract signals of climate change. Algorithms generally possess weak scaling and can be I/O and/or memory-bound. Such weak-scaling, I/O, and memory-bound multi-physics codes present particular challenges to computational performance.  Traditional metrics of computational efficiency such as performance counters and scaling curves do not tell us enough about real sustained performance from climate models on different machines. They also do not provide a satisfactory basis for comparative information across models. codes present particular challenges to computational performance.  We introduce a set of metrics that can be used for the study of computational performance of climate (and Earth system) models. These measures do not require specialized software or specific hardware counters, and should be accessible to anyone. They are independent of platform and underlying parallel programming models. We show how these metrics can be used to measure actually attained performance of Earth system models on different machines, and identify the most fruitful areas of research and development for performance engineering. codes present particular challenges to computational performance.  We present results for these measures for a diverse suite of models from several modeling centers, and propose to use these measures as a basis for a CPMIP, a computational performance model intercomparison project (MIP).},
+  file = {/Users/BNL28/zotero_files/BalajiEA_2017_CPMIP_-_measurements_of_real.pdf},
+  keywords = {aces,bnl,bnl-cv,bnl-cv-refgen,bnl-cv-refjnl,chasm,esdoc19,onblog,prp17,prp18},
+  number = {1}
+}
+
+@article{BalEA18,
+  title = {Requirements for a Global Data Infrastructure in Support of {{CMIP6}}},
+  author = {Balaji, Venkatramani and Taylor, Karl E. and Juckes, Martin and Lawrence, Bryan N. and Durack, Paul J. and Lautenschlager, Michael and Blanton, Chris and Cinquini, Luca and Denvil, Sebastien and Elkington, Mark and Guglielmo, Francesca and Guilyardi, Eric and Hassell, David and Kharin, Slava and Kindermann, Stefan and Nikonov, Sergey and Radhakrishnan, Aparna and Stockhause, Martina and Weigel, Tobias and Williams, Dean},
+  date = {2018-09-11},
+  journaltitle = {Geoscientific Model Development},
+  volume = {11},
+  pages = {3659--3680},
+  doi = {10.5194/gmd-11-3659-2018},
+  url = {https://www.geosci-model-dev.net/11/3659/2018/gmd-11-3659-2018.pdf},
+  urldate = {2018-09-12},
+  abstract = {The World Climate Research Programme (WCRP)’s Working Group on Climate Modelling (WGCM) Infrastructure Panel (WIP) was formed in 2014 in response to the explosive growth in size and complexity of Coupled Model Intercomparison Projects (CMIPs) between CMIP3 (2005–2006) and CMIP5 (2011–2012). This article presents the WIP recommendations for the global data infrastructure needed to support CMIP design, future growth, and evolution. Developed in close coordination with those who build and run the existing infrastructure (the Earth System Grid Federation; ESGF), the recommendations are based on several principles beginning with the need to separate requirements, implementation, and operations. Other important principles include the consideration of the diversity of community needs around data – a data ecosystem – the importance of provenance, the need for automation, and the obligation to measure costs and benefits.},
+  file = {/Users/BNL28/zotero_files/BalajiEA_2018_Requirements_for_a_global_data.pdf},
+  keywords = {aces,bnl-cv,bnl-cv-refgen,bnl-cv-refjnl,bnl-ref2020-impact,edata4,pascoe18,prp18,semsl_paper},
+  langid = {english}
+}
+
+@inproceedings{Carns2009,
+  title = {Small-File Access in Parallel File Systems},
+  booktitle = {2009 {{IEEE International Symposium}} on {{Parallel Distributed Processing}}},
+  author = {Carns, P. and Lang, S. and Ross, R. and Vilayannur, M. and Kunkel, J. and Ludwig, T.},
+  date = {2009-05},
+  pages = {1--11},
+  doi = {10.1109/IPDPS.2009.5161029},
+  abstract = {Today's computational science demands have resulted in ever larger parallel computers, and storage systems have grown to match these demands. Parallel file systems used in this environment are increasingly specialized to extract the highest possible performance for large I/O operations, at the expense of other potential workloads. While some applications have adapted to I/O best practices and can obtain good performance on these systems, the natural I/O patterns of many applications result in generation of many small files. These applications are not well served by current parallel file systems at very large scale. This paper describes five techniques for optimizing small-file access in parallel file systems for very large scale systems. These five techniques are all implemented in a single parallel file system (PVFS) and then systematically assessed on two test platforms. A microbenchmark and the mdtest benchmark are used to evaluate the optimizations at an unprecedented scale. We observe as much as a 905\% improvement in small-file create rates, 1,106\% improvement in small-file stat rates, and 727\% improvement in small-file removal rates, compared to a baseline PVFS configuration on a leadership computing platform using 16,384 cores.},
+  eventtitle = {2009 {{IEEE International Symposium}} on {{Parallel Distributed Processing}}},
+  file = {/Users/BNL28/zotero_files/CarnsEA_2009_Small-file_access_in_parallel_file.pdf;/Users/BNL28/zotero-storage/storage/HWA2H6TW/5161029.html},
+  keywords = {aces,Application software,Benchmark testing,Best practices,Computer science,Concurrent computing,file organisation,file systems,File systems,Laboratories,large I/O operation,Large-scale systems,Mathematics,parallel file system,parallel processing,small-file access,small-file create rate,small-file removal rate,small-file stat rate,System testing,very large scale system}
+}
+
+@article{Hubbe2013,
+  title = {Reducing the {{HPC}}-Datastorage {{Footprint}} with {{MAFISC}}–{{Multidimensional Adaptive Filtering Improved Scientific Data Compression}}},
+  author = {Hübbe, Nathanael and Kunkel, Julian},
+  date = {2013-05},
+  journaltitle = {Comput. Sci.},
+  volume = {28},
+  pages = {231--239},
+  issn = {1865-2034},
+  doi = {10.1007/s00450-012-0222-4},
+  url = {http://dx.doi.org/10.1007/s00450-012-0222-4},
+  urldate = {2018-02-20},
+  abstract = {Large HPC installations today also include large data storage installations. Data compression can significantly reduce the amount of data, and it was one of our goals to find out, how much compression can do for climate data. The price of compression is, of course, the need for additional computational resources, so our second goal was to relate the savings of compression to the costs it necessitates.In this paper we present the results of our analysis of typical climate data. A lossless algorithm based on these insights is developed and its compression ratio is compared to that of standard compression tools. As it turns out, this algorithm is general enough to be useful for a large class of scientific data, which is the reason we speak of MAFISC as a method for scientific data compression. A numeric problem for lossless compression of scientific data is identified and a possible solution is given. Finally, we discuss the economics of data compression in HPC environments using the example of the German Climate Computing Center.},
+  keywords = {aces,Data compression,HDF5,NetCDF},
+  number = {2-3}
+}
+
+@article{Hubbe2013a,
+  title = {Evaluating Lossy Compression on Climate Data},
+  author = {Hübbe, Nathanael and Wegener, Al and Kunkel, Julian Martin and Ling, Yi and Ludwig, Thomas},
+  date = {2013},
+  journaltitle = {International Supercomputing Conference},
+  volume = {7905},
+  pages = {343--356},
+  doi = {10.1007/978-3-642-38750-0_26},
+  file = {/Users/BNL28/zotero_files/HübbeEA_2013_Evaluating_lossy_compression_on_climate.pdf},
+  keywords = {aces},
+  series = {Lecture {{Notes}} in {{Computer Science}}}
+}
+
+@article{Juckes2020,
+  title = {The {{CMIP6 Data Request}} ({{DREQ}}, Version 01.00.31)},
+  author = {Juckes, Martin and Taylor, Karl E. and Durack, Paul J. and Lawrence, Bryan and Mizielinski, Matthew S. and Pamment, Alison and Peterschmitt, Jean-Yves and Rixen, Michel and Sénési, Stéphane},
+  date = {2020-01-28},
+  journaltitle = {Geoscientific Model Development},
+  volume = {13},
+  pages = {201--224},
+  issn = {1991-959X},
+  doi = {10.5194/gmd-13-201-2020},
+  url = {https://www.geosci-model-dev.net/13/201/2020/},
+  urldate = {2020-01-29},
+  abstract = {{$<$}p{$><$}strong{$>$}Abstract.{$<$}/strong{$>$} The data request of the Coupled Model Intercomparison Project Phase 6 (CMIP6) defines all the quantities from CMIP6 simulations that should be archived. This includes both quantities of general interest needed from most of the CMIP6-endorsed model intercomparison projects (MIPs) and quantities that are more specialized and only of interest to a single endorsed MIP. The complexity of the data request has increased from the early days of model intercomparisons, as has the data volume. In contrast with CMIP5, CMIP6 requires distinct sets of highly tailored variables to be saved from each of the more than 200 experiments. This places new demands on the data request information base and leads to a new requirement for development of software that facilitates automated interrogation of the request and retrieval of its technical specifications. The building blocks and structure of the CMIP6 Data Request (DREQ), which have been constructed to meet these challenges, are described in this paper.{$<$}/p{$>$}},
+  file = {/Users/BNL28/zotero_files/JuckesEA_2020_The_CMIP6_Data_Request_(DREQ,_version.pdf;/Users/BNL28/zotero-storage/storage/GLESJFXA/2020.html},
+  keywords = {aces,bnl,bnl-cv,bnl-cv-refgen,bnl-cv-refjnl,covid,pascoe18,PetEA20},
+  langid = {english},
+  number = {1}
+}
+
+@article{KerEA20,
+  title = {Developing an {{Open Data Portal}} for the {{ESA Climate Change Initiative}}},
+  author = {Kershaw, Philip and Halsall, Kevin and Lawrence, Bryan N. and Bennett, Victoria and Donegan, Steve and Iwi, Alan and Juckes, Martin and Pechorro, Eduardo and Petrie, Ruth and Singleton, Joe and Stephens, Ag and Waterfall, Alison and Wilson, Antony and Wood, Alexander},
+  date = {2020-04-06},
+  journaltitle = {Data Science Journal},
+  volume = {19},
+  pages = {16},
+  issn = {1683-1470},
+  doi = {10.5334/dsj-2020-016},
+  url = {http://datascience.codata.org/articles/10.5334/dsj-2020-016/},
+  urldate = {2020-05-06},
+  file = {/Users/BNL28/zotero_files/KershawEA_2020_Developing_an_Open_Data_Portal_for_the.pdf},
+  keywords = {aces,bnl,bnl-cv,bnl-cv-refgen,bnl-cv-refjnl,bnl-ref2020-impact},
+  langid = {english}
+}
+
+@article{Kuhn2009,
+  title = {Dynamic File System Semantics to Enable Metadata Optimizations in {{PVFS}}},
+  author = {Kuhn, Michael and Kunkel, Julian Martin and Ludwig, Thomas},
+  date = {2009-09-25},
+  journaltitle = {Concurrency and Computation: Practice and Experience},
+  volume = {21},
+  pages = {1775--1788},
+  issn = {15320626, 15320634},
+  doi = {10.1002/cpe.1439},
+  url = {http://doi.wiley.com/10.1002/cpe.1439},
+  urldate = {2018-02-20},
+  file = {/Users/BNL28/zotero_files/KuhnEA_2009_Dynamic_file_system_semantics_to_enable.pdf},
+  keywords = {aces},
+  langid = {english},
+  number = {14}
+}
+
+@unpublished{KunEA16,
+  title = {Middleware for {{Earth System Data}}},
+  author = {Kunkel, Julian and Luettgau, Jakob and Lawrence, Bryan N. and Jensen, Jens and Congiu, Giuseppe and Readey, John},
+  date = {2016},
+  url = {http://www.pdsw.org/pdsw-discs16/wips/kunkel1-wip-pdsw-discs16.pdf},
+  urldate = {2017-06-23},
+  eventtitle = {1st {{International Workshop}} on {{Parallell Data Storage}} and {{Data Intensive Scalable Computing Systems}} ({{PDSW}}-{{DISCS}}'16)},
+  file = {/Users/BNL28/zotero_files/KunkelEA_2016_Middleware_for_Earth_System_Data.pdf},
+  keywords = {aces,bnl,bnl-cv-conf,prp17,prp18},
+  type = {Work in Progress},
+  venue = {{Salt Lake City}}
+}
+
+@article{Kunkel2017a,
+  title = {Towards {{Decoupling}} the {{Selection}} of {{Compression Algorithms}} from {{Quality Constraints}} – {{An Investigation}} of {{Lossy Compression Efficiency}}},
+  author = {Kunkel, Julian Martin and Novikova, Anastasiia and Betke, Eugen},
+  date = {2017-11-21},
+  journaltitle = {Supercomputing Frontiers and Innovations},
+  volume = {4},
+  pages = {17--33},
+  issn = {2313-8734},
+  doi = {10.14529/jsfi170402},
+  url = {http://www.superfri.org/superfri/article/view/149},
+  urldate = {2018-05-08},
+  abstract = {Data intense scientific domains use data compression to reduce the storage space needed. Lossless data compression preserves information accurately but lossy data compression can achieve much higher compression rates depending on the tolerable error margins. There are many ways of defining precision and to exploit this knowledge, therefore, the field of lossy compression is subject to active research. From the perspective of a scientist, the qualitative definition about the implied loss of data precision should only matter.With the Scientific Compression Library (SCIL), we are developing a meta-compressor that allows users to define various quantities for acceptable error and expected performance behavior. The library then picks a suitable chain of algorithms yielding the user’s requirements, the ongoing work is a preliminary stage for the design of an adaptive selector. This approach is a crucial step towards a scientifically safe use of much-needed lossy data compression, because it disentangles the tasks of determining scientific characteristics of tolerable noise, from the task of determining an optimal compression strategy. Future algorithms can be used without changing application code.In this paper, we evaluate various lossy compression algorithms for compressing different scientific datasets (Isabel, ECHAM6), and focus on the analysis of synthetically created data that serves as blueprint for many observed datasets. We also briefly describe the available quantitiesof SCIL to define data precision and introduce two efficient compression algorithms for individualdata points. This shows that the best algorithm depends on user settings and data properties.},
+  file = {/Users/BNL28/zotero_files/KunkelEA_2017_Towards_Decoupling_the_Selection_of.pdf;/Users/BNL28/zotero-storage/storage/AL7385SY/149.html},
+  keywords = {aces},
+  langid = {english},
+  number = {4}
+}
+
+@article{LawChasm,
+  title = {Crossing the Chasm: How to Develop Weather and Climate Models for next Generation Computers?},
+  shorttitle = {Crossing the Chasm},
+  author = {Lawrence, Bryan N. and Rezny, Michael and Budich, Reinhard and Bauer, Peter and Behrens, Jörg and Carter, Mick and Deconinck, Willem and Ford, Rupert and Maynard, Christopher and Mullerworth, Steven and Osuna, Carlos and Porter, Andrew and Serradell, Kim and Valcke, Sophie and Wedi, Nils and Wilson, Simon},
+  date = {2018-05-08},
+  journaltitle = {Geoscientific Model Development},
+  volume = {11},
+  pages = {1799--1821},
+  issn = {1991-9603},
+  doi = {10.5194/gmd-11-1799-2018},
+  url = {https://www.geosci-model-dev.net/11/1799/2018/},
+  urldate = {2018-05-08},
+  file = {/Users/BNL28/zotero_files/LawrenceEA_2018_Crossing_the_chasm_-_how_to_develop.pdf},
+  keywords = {aces,bnl-cv,bnl-cv-refgen,bnl-cv-refjnl,easc2018,edata4,prp18},
+  langid = {english},
+  number = {5}
+}
+
+@unpublished{LueEA17,
+  title = {Towards {{Structure}}-{{Aware Earth System Data Management}}},
+  author = {Luettgau, Jakob and Kunkel, Julian and Lawrence, Bryan N. and Fiore, Sandro and Hua, Huang},
+  date = {2017-11-13},
+  abstract = {Current storage environments confront domain scientist and data
+center operators with usability and performance challenges. To
+achieve performance portability data description libraries such as
+HDF5 and NetCDF are widely adopted. At the moment, these libraries
+struggle to adequately account for access patterns when
+reading and writing data to multi-tier distributed storage systems.
+As part of the ESiWACE[1] project, we develop a novel I/O middleware
+targeting, but not limited to, earth system data. The architecture
+builds on top of well established end-user interfaces but utilizes
+scientific metadata to harness a data structure centric perspective.},
+  eventtitle = {2nd {{International Workshop}} on {{Parallel Data Storage}} and {{Data Intensive Scalable Computing Systems}} ({{PDSW}}-{{DISCS}}'17)},
+  file = {/Users/BNL28/zotero_files/LuettgauEA_2017_Towards_Structure-Aware_Earth_System.pdf},
+  keywords = {aces,bnl,bnl-cv,bnl-cv-conf},
+  type = {Work in Progress},
+  venue = {{Denver}}
+}
+
+@inproceedings{MasEA17,
+  title = {Evolving {{JASMIN}}: {{High}} Performance Analysis and the Data Deluge},
+  booktitle = {Proc. of the 2017 Conference on {{Big Data}} from {{Space}} ({{BiDS}}’17)},
+  author = {Massey, Neil and Kershaw, Philip and Pritchard, Matt and Pryor, Matt and Pepler, Sam and Churchill, Jonathan and Lawrence, Bryan},
+  date = {2017},
+  pages = {287--288},
+  location = {{Toulouse, France}},
+  doi = {10.2760/383579},
+  abstract = {JASMIN is a highly successful data analysis system, which is used by thousands of academics and their industrial partners to analyse many petabytes of environmental data. The rapidly increasing volume of data stored on JASMIN, and the steadily increasing number of users, is making it necessary to investigate and implement new methods of providing computing resources to the users, storing the data that they produce from their analyses and storing and maintaining a very large archive of environmental data. To achieve this, two main areas of research are described. Firstly, providing users with virtualised services to best utilise the computing resources available. Secondly, using object storage to provide a large, yet affordable, data store and providing the users with tools and interfaces to common environmental data formats, so as to not unduly affect their current work flows.},
+  file = {/Users/BNL28/zotero_files/MasseyEA_2017_Evolving_JASMIN_-_High_performance.pdf},
+  keywords = {aces,bnl,bnl-cv,bnl-cv-conf}
+}
+
+@inproceedings{Meister2012,
+  title = {A Study on Data Deduplication in {{HPC}} Storage Systems},
+  booktitle = {High {{Performance Computing}}, {{Networking}}, {{Storage}} and {{Analysis}} ({{SC}}), 2012 {{International Conference}} For},
+  author = {Meister, D. and Kaiser, J. and Brinkmann, A. and Cortes, T. and Kuhn, M. and Kunkel, J.},
+  date = {2012-11},
+  pages = {1--11},
+  doi = {10.1109/SC.2012.14},
+  abstract = {Deduplication is a storage saving technique that is highly successful in enterprise backup environments. On a file system, a single data block might be stored multiple times across different files, for example, multiple versions of a file might exist that are mostly identical. With deduplication, this data replication is localized and redundancy is removed – by storing data just once, all files that use identical regions refer to the same unique data. The most common approach splits file data into chunks and calculates a cryptographic fingerprint for each chunk. By checking if the fingerprint has already been stored, a chunk is classified as redundant or unique. Only unique chunks are stored. This paper presents the first study on the potential of data deduplication in HPC centers, which belong to the most demanding storage producers. We have quantitatively assessed this potential for capacity reduction for 4 data centers (BSC, DKRZ, RENCI, RWTH). In contrast to previous deduplication studies focusing mostly on backup data, we have analyzed over one PB (1212 TB) of online file system data. The evaluation shows that typically 20\% to 30\% of this online data can be removed by applying data deduplication techniques, peaking up to 70\% for some data sets. This reduction can only be achieved by a subfile deduplication approach, while approaches based on whole-file comparisons only lead to small capacity savings.},
+  eventtitle = {High {{Performance Computing}}, {{Networking}}, {{Storage}} and {{Analysis}} ({{SC}}), 2012 {{International Conference}} For},
+  file = {/Users/BNL28/zotero_files/MeisterEA_2012_A_study_on_data_deduplication_in_HPC.pdf;/Users/BNL28/zotero-storage/storage/ZFI96DPP/6468447.html},
+  keywords = {aces,back-up procedures,backup data,BSC,capacity reduction,computer centres,cryptographic fingerprint calculation,cryptography,Cryptography,data block,data centers,data deduplication,DKRZ,Educational institutions,enterprise backup environments,file data,Focusing,HPC centers,HPC storage system,Indexes,Internet,localized data replication,Meteorology,online file system data,Redundancy,redundancy removal,RENCI,replicated databases,RWTH,storage management,storage saving technique,subfile deduplication approach,Virtual machining}
+}
+
+@article{NabeehJumah2017,
+  title = {{{GGDML}}: {{Icosahedral Models Language Extensions}}},
+  shorttitle = {{{GGDML}}},
+  author = {{Nabeeh Jumah} and {Julian Kunkel} and {Günther Zängel} and {Hisashi Yashiro} and {Thomas Dubos} and {Yann Meurdesoif}},
+  date = {2017-06-22},
+  journaltitle = {Journal of Computer Science Technology Updates},
+  volume = {4},
+  pages = {1--10},
+  issn = {24102938},
+  doi = {10.15379/2410-2938.2017.04.01.01},
+  url = {http://www.cosmosscholars.com/current-issue-jcstu/79-abstracts/jcstu/708-abstract-ggdml-icosahedral-models-language-extensions},
+  urldate = {2018-05-08},
+  abstract = {The optimization opportunities of a code base are not completely exploited by compilers. In fact, there are optimizations that must be done within the source code. Hence, if the code developers skip some details, some performance is lost. Thus, the use of a general-purpose language to develop a performance-demanding software -e.g. climate models- needs more care from the developers. They should take into account hardware details of the target machine.  Besides, writing a high-performance code for one machine will have a lower performance on another one. The developers usually write multiple optimized sections or even code versions for the different target machines. Such codes are complex and hard to maintain.  In this article we introduce a higher-level code development approach, where we develop a set of extensions to the language that is used to write a model’s code. Our extensions form a domain-specific language (DSL) that abstracts domain concepts and leaves the lower level details to a configurable source-to-source translation process.  The purpose of the developed extensions is to support the icosahedral climate/atmospheric model development. We have started with the three icosahedral models: DYNAMICO, ICON, and NICAM. The collaboration with the scientists from the weather/climate sciences enabled agreed-upon extensions. When we have suggested an extension we kept in mind that it represents a higher-level domain-based concept, and that it carries no lower-level details.  The introduced DSL (GGDML- General Grid Definition and Manipulation Language) hides optimization details like memory layout. It reduces code size of a model to less than one third its original size in terms of lines of code. The development costs of a model with GGDML are therefore reduced significantly.},
+  keywords = {aces},
+  number = {1}
+}
+
+@inproceedings{OspEA13,
+  title = {A {{Benchmark}}-{{Driven Modelling Approach}} for {{Evaluating Deployment Choices}} on a {{Multicore Architecture}}},
+  booktitle = {Proceedings of the {{International Conference}} on {{Parallel}} \& {{Distributed Processing Techniques}} \& {{Application}} ({{PDPTA}}'13)},
+  author = {Osprey, A. and Riley, G.D. and Manjunathaiah, M. and Lawrence, B.N.},
+  date = {2013-07},
+  pages = {571--577},
+  location = {{Las Vegas}},
+  file = {/Users/BNL28/zotero_files/OspreyEA_2013_A_Benchmark-Driven_Modelling_Approach.pdf},
+  isbn = {1-60132-258-5},
+  keywords = {aces,bnl-cv,bnl-cv-refconf,bnl-cv-refgen}
+}
+
+@inproceedings{OspEA14,
+  title = {The Development of a Data-Driven Application Benchmarking Approach to Performance Modelling},
+  booktitle = {2014 {{International Conference}} on {{High Performance Computing Simulation}} ({{HPCS}})},
+  author = {Osprey, A. and Riley, G.D. and Manjunathaiah, M. and Lawrence, B.N.},
+  date = {2014-07},
+  pages = {715--723},
+  doi = {10.1109/HPCSim.2014.6903760},
+  abstract = {Performance modelling is a useful tool in the lifeycle of high performance scientific software, such as weather and climate models, especially as a means of ensuring efficient use of available computing resources. In particular, sufficiently accurate performance prediction could reduce the effort and experimental computer time required when porting and optimising a climate model to a new machine. Yet as architectures become more complex, performance prediction is becoming more difficult. Traditional methods of performance prediction, based on source code analysis and supported by machine benchmarks, are proving inadequate to the task. In this paper, the reasons for this are explored by applying some traditional techniques to predict the computation time of a simple shallow water model which is illustrative of the computation (and communication) involved in climate models. These models are compared with real execution data gathered on AMD Opteron-based systems, including several phases of the U.K. academic community HPC resource, HECToR. Some success is had in relating source code to achieved performance for the K10 series of Opterons, but the method is found to be inadequate for the next-generation Interlagos processor. The experience leads to the investigation of a data-driven application benchmarking approach to performance modelling. Results for an early version of the approach are presented using the shallow model as an example. In addition, the data-driven approach is compared with a novel analytical model based on fitting logarithmic curves to benchmarked application data. The limitations of this analytical method provide further motivation for the development of the data-driven approach and results of this work have been published elsewhere.},
+  eventtitle = {2014 {{International Conference}} on {{High Performance Computing Simulation}} ({{HPCS}})},
+  file = {/Users/BNL28/zotero_files/OspreyEA_2014_The_development_of_a_data-driven.pdf;/Users/BNL28/zotero-storage/storage/766H76DP/abstractAuthors.html},
+  keywords = {aces,AMD Opteron-based systems,Analytical models,Bandwidth,Benchmark testing,benchmarking,bnl-cv,bnl-cv-refconf,bnl-cv-refgen,Climate model,Computational modeling,Computer architecture,curve fitting,data-driven application benchmarking approach development,geophysics computing,HECToR,high performance scientific software lifeycle,logarithmic curve fitting,machine benchmarks,Mathematical model,Meteorology,multicore,next-generation Interlagos processor,parallel processing,performance modelling,performance prediction,shallow water model,source code (software),source code analysis,UK academic community HPC resource}
+}
+
+@article{Pascoe2020,
+  title = {Documenting Numerical Experiments in Support of the {{Coupled Model Intercomparison Project Phase}} 6 ({{CMIP6}})},
+  author = {Pascoe, Charlotte and Lawrence, Bryan N. and Guilyardi, Eric and Juckes, Martin and Taylor, Karl E.},
+  date = {2020-05-06},
+  journaltitle = {Geoscientific Model Development},
+  shortjournal = {Geosci. Model Dev.},
+  volume = {13},
+  pages = {2149--2167},
+  issn = {1991-9603},
+  doi = {10.5194/gmd-13-2149-2020},
+  url = {https://www.geosci-model-dev.net/13/2149/2020/},
+  urldate = {2020-05-06},
+  abstract = {Abstract. Numerical simulation, and in particular simulation of the earth system, relies on contributions from diverse communities, from those who develop models to those involved in devising, executing, and analysing numerical experiments.
+Often these people work in different institutions and may be working with significant separation in time (particularly analysts, who may be working on data produced years earlier), and they typically communicate via published information (whether journal papers, technical notes, or websites).
+The complexity of the models, experiments, and methodologies, along with the diversity (and sometimes inexact nature) of information sources, can easily lead to misinterpretation of what was actually intended or done.
+In this paper we introduce a taxonomy of terms for more clearly defining numerical experiments, put it in the context of previous work on experimental ontologies, and describe how we have used it to document the experiments of the sixth phase for the Coupled Model Intercomparison Project (CMIP6).
+We describe how, through iteration with a range of CMIP6 stakeholders, we rationalized multiple sources of information and improved the clarity of experimental definitions.
+We demonstrate how this process has added value to CMIP6 itself by (a)~helping those devising experiments to be clear about their goals and their implementation, (b)~making it easier for those executing experiments to know what is intended, (c)~exposing interrelationships between experiments, and (d)~making it clearer for third parties (data users) to understand the CMIP6 experiments.
+We conclude with some lessons learnt and how these may be applied to future CMIP phases as well as other modelling campaigns.},
+  keywords = {aces,bnl,bnl-cv,bnl-cv-refgen,bnl-cv-refjnl,bnl-ref2020-impact,bnl-uor-ref},
+  langid = {english},
+  number = {5}
+}
+
+@article{Senior2020,
+  title = {{{UK Community Earth System Modelling}} for {{CMIP6}}},
+  author = {Senior, Catherine A. and Jones, Colin G. and Wood, Richard A. and Sellar, Alistair and Belcher, Stephen and Klein‐Tank, Albert and Sutton, Rowan and Walton, Jeremy and Lawrence, Bryan and Andrews, Timothy and Mulcahy, Jane P.},
+  date = {2020-06-03},
+  journaltitle = {Journal of Advances in Modeling Earth Systems},
+  shortjournal = {J. Adv. Model. Earth Syst.},
+  issn = {1942-2466, 1942-2466},
+  doi = {10.1029/2019MS002004},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1029/2019MS002004},
+  urldate = {2020-06-08},
+  file = {/Users/BNL28/zotero_files/SeniorEA_2020_UK_Community_Earth_System_Modelling_for.pdf},
+  keywords = {aces,bnl,bnl-cv,bnl-cv-refgen,bnl-cv-refjnl},
+  langid = {english}
+}
+
+
