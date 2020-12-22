@@ -1,0 +1,10 @@
+---
+layout: post
+title: NCAR2020
+icon: newspaper-o
+shortnews: True
+---
+
+[Chris](bio/chris.html) attended a virual workshop run by NCAR in Boulder, CO, USA for the 10th annual multicore workshop. He presented a paper on [Performance and Scaling of the LFRic model](https://www2.cisl.ucar.edu/events/workshops/multicore-workshop/2020/2020-multicore-10-workshop
+) and took part in a panel discussion on *Approaches to Effectively Using Accelerators and Multicore Hardware in Production Environments.*
+
