@@ -1,9 +1,9 @@
 
 julian:
     display_name: "Julian Kunkel"
-    role: faculty
-    bio: Lecturer in Computer Science
-    webpage: /bio/julian.html
+    role: collab
+    bio: Stellvertretender Leiter High-Performance Computing (<a href="https://www.gwdg.de">GWDG</a>)
+    webpage: https://hps.vi4io.org/about/people/julian_kunkel
     image: /img/people/julian2.jpg
 
 bryan:
@@ -20,12 +20,6 @@ chris:
     webpage: /bio/chris.html
     image: /img/people/chris.jpg
 
-luciana:
-    display_name: "Luciana Pedro"
-    role: staff
-    bio: Postdoctoral Researcher
-    webpage: https://hps.vi4io.org/about/people/luciana_rocha_pedro
-    image: https://hps.vi4io.org/_media/about/people/lucy.jpg?w=120&tok=e6c56c
 
 annette:
     display_name: "Annette Osprey"
@@ -38,12 +32,6 @@ daniel:
     role: phd
     webpage: /bio/daniel
     image: /img/people/daniel.jpg
-
-kyle:
-    display_name: "Kyle Spindler"
-    role: phd
-    webpage: /bio/kyle
-    image: https://hps.vi4io.org/_media/about/people/kyle_spindler.jpg?w=120&tok=8a51a0
 
 simon:
     display_name: "Simon Wilson"
