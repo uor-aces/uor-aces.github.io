@@ -32,7 +32,7 @@ roles:
   - key: collabgrp
     name: Related Research Groups
   - key: collab
-    name: Collaborators
+    name: Key Collaborators
   - key: collabinst
     name: Institutional Collaborators
 
