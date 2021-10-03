@@ -24,20 +24,30 @@ chris:
 annette:
     display_name: "Annette Osprey"
     role: staff
+    bio: Research Software Engineer
     webpage: /bio/annette
-    image: img/people/annette.jpg
+    image: /img/people/annette.jpg
 
 daniel:
     display_name: "Daniel Galea"
     role: phd
     webpage: /bio/daniel
+    bio: Ph.D Student
     image: /img/people/daniel.jpg
+
 
 simon:
     display_name: "Simon Wilson"
     role: staff
     webpage: /bio/simon
-    image: img/people/simon.jpg
+    bio: Research Software Engineer
+    image: /img/people/simon.jpg
+
+grenville:
+    display_name: "Grenville"
+    role: collab
+    bio: Head of NCAS CMS
+    webpage: https://research.reading.ac.uk/meteorology/people/grenville-lister/
 
 neil:
     display_name: "Neil Massey"
@@ -49,22 +59,21 @@ jon:
     display_name: "Jon Blower"
     role: collab
     bio: Chief Technology Officer at the <a href="http://www.the-iea.org/about/team/">Institute of Environmental Analytics</a>
+    webpage: https://www.the-iea.org/about/team/iea-web-jonblower/
 
-ncas:
-    display_name: "The UK National Centre for Atmospheric Science"
-    image: img/people/ncas.jpg
-    bio: The NCAS Computational and Modelling Services unit.
+cms:
+    display_name: Computational Modelling Services (NCAS)
+    image: /img/people/ncas.jpg
+    bio: CMS colleagues work on our projects as necessary.
     webpage: http://cms.ncas.ac.uk
-    role: collabinst
+    role: collabgrp
 
 dkrz:
     display_name: "DKRZ"
     role: collabinst
     webpage: https://www.dkrz.de
     bio: The German Climate Computing Centre
-    image: img/people/dkrz.jpg
-
-
+    image: /img/people/dkrz.jpg
 
 #    role: postdoc
 #    role: ugrad
