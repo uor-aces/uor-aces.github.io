@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="622px" preserveAspectRatio="none" style="width:747px;height:622px;" version="1.1" viewBox="0 0 747 622" width="747px" zoomAndPan="magnify"><defs/><g><!--MD5=[ef88bfcedc001a52f196519a1db08d6e]
+cluster ExCALIData--><polygon fill="#FFFFFF" points="16,6,104,6,111,28.4883,730,28.4883,730,615,16,615,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="111" y1="28.4883" y2="28.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="20" y="21.5352">ExCALIData</text><!--MD5=[13053843566426090a0caad35995ca0c]
+cluster EX20-7 ExCALIWork (Workflow)--><polygon fill="#FFFFFF" points="388,49,622,49,629,71.4883,706,71.4883,706,454,388,454,388,49" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="388" x2="629" y1="71.4883" y2="71.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="228" x="392" y="64.5352">EX20-7 ExCALIWork (Workflow)</text><!--MD5=[32b49c186bb721d7b0290bd75dd25ae1]
+cluster EX20-6 ExCALIStore (IO & Storage)--><polygon fill="#FFFFFF" points="40,49,296,49,303,71.4883,364,71.4883,364,454,40,454,40,49" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="303" y1="71.4883" y2="71.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="250" x="44" y="64.5352">EX20-6 ExCALIStore (IO &amp; Storage)</text><!--MD5=[7ecf0c6797d8699b03402e035ab59f4d]
+entity WP8--><rect fill="#F0FFFF" height="129.418" style="stroke:#000000;stroke-width:1.5;" width="357" x="77.5" y="470"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="262" x="87.5" y="486.5352">WP4: Community Building &amp; Proj. Man.</text><line style="stroke:#000000;stroke-width:1.0;" x1="78.5" x2="433.5" y1="489.4883" y2="489.4883"/><line style="stroke:#000000;stroke-width:1.0;" x1="78.5" x2="433.5" y1="491.4883" y2="491.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="283" x="87.5" y="507.0234">(1) Establish a UK community of RSEs and</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="308" x="87.5" y="523.5117">application specialists with interest, aptitude,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="337" x="87.5" y="540">and experience in managing  exascale data flows</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="87.5" y="556.4883">and exascale data residence.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="300" x="87.5" y="572.9766">(2) Coordinate project and formal reporting</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="87.5" y="589.4648">to Met Office.</text><path d="M469.5,483.5 L469.5,530.5 L434.51,534.5 L469.5,538.5 L469.5,585.3633 A0,0 0 0 0 469.5,585.3633 L668.5,585.3633 A0,0 0 0 0 668.5,585.3633 L668.5,493.5 L658.5,483.5 L469.5,483.5 A0,0 0 0 0 469.5,483.5 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M658.5,483.5 L658.5,493.5 L668.5,493.5 L658.5,483.5 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="475.5" y="501.0684">Both projects include</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="475.5" y="516.3789">a WP4 with complementary</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="178" x="475.5" y="531.6895">activities. If both are funded</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="174" x="475.5" y="547">twice as much effort will be</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171" x="475.5" y="562.3105">deployed as a consolidated</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="475.5" y="577.6211">work package.</text><!--MD5=[a28ced9f748f0162ff53f0834ea7428c]
+entity WP4--><rect fill="#88160F" height="96.4414" style="stroke:#000000;stroke-width:1.5;" width="281" x="405.5" y="342"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203" x="415.5" y="358.5352">WP-W3: I/O Server Prototypes</text><line style="stroke:#000000;stroke-width:1.0;" x1="406.5" x2="685.5" y1="361.4883" y2="361.4883"/><line style="stroke:#000000;stroke-width:1.0;" x1="406.5" x2="685.5" y1="363.4883" y2="363.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="415.5" y="379.0234">Goal: Develop an "in-flight"</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="415.5" y="395.5117">analysis system with interacting</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="234" x="415.5" y="412">MPI communicators and ensemble</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261" x="415.5" y="428.4883">reductions across model components.</text><!--MD5=[bf61fc95a70a7d0603548c9004712a5b]
+entity WP5--><rect fill="#88160F" height="112.9297" style="stroke:#000000;stroke-width:1.5;" width="284" x="405" y="84"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215" x="415" y="100.5352">WP-W1 Active Storage Software</text><line style="stroke:#000000;stroke-width:1.0;" x1="406" x2="688" y1="103.4883" y2="103.4883"/><line style="stroke:#000000;stroke-width:1.0;" x1="406" x2="688" y1="105.4883" y2="105.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="415" y="121.0234">Goal: Develop a full-stack approach</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="233" x="415" y="137.5117">to active storage with user tooling</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="264" x="415" y="154">which exploits domain knowledge and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="415" y="170.4883">domain agnostic middleware and new</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="220" x="415" y="186.9766">(WP-W3) active storage services.</text><!--MD5=[a525c511ee3cf929196ca481a1157e5a]
+entity WP6--><rect fill="#88160F" height="129.418" style="stroke:#000000;stroke-width:1.5;" width="285" x="404.5" y="205"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="414.5" y="221.5352">WP-W2: Active Storage Servers</text><line style="stroke:#000000;stroke-width:1.0;" x1="405.5" x2="688.5" y1="224.4883" y2="224.4883"/><line style="stroke:#000000;stroke-width:1.0;" x1="405.5" x2="688.5" y1="226.4883" y2="226.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="265" x="414.5" y="242.0234">Goal: Develop, deploy and test systems</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="414.5" y="258.5117">which exploit the proposed active</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="414.5" y="275">storage interface to carry out</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="228" x="414.5" y="291.4883">specific operations behind an API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="414.5" y="307.9766">suitable for deployment in both</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="242" x="414.5" y="324.4648">(1) cloud and (2) conventional HPC.</text><!--MD5=[e2eaa127c765f7b78f0b9155eb562ee7]
+entity WP1--><rect fill="#334C24" height="96.4414" style="stroke:#000000;stroke-width:1.5;" width="289" x="57.5" y="342"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="67.5" y="358.5352">WP-I3: I/O middleware</text><line style="stroke:#000000;stroke-width:1.0;" x1="58.5" x2="345.5" y1="361.4883" y2="361.4883"/><line style="stroke:#000000;stroke-width:1.0;" x1="58.5" x2="345.5" y1="363.4883" y2="363.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="250" x="67.5" y="379.0234">Goal: Test and understand strengths</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="269" x="67.5" y="395.5117">and weaknesses of generic and specific</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="67.5" y="412">I/O middleware, in particular</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="67.5" y="428.4883">(1) ADIOS and (2) ESDM.</text><!--MD5=[ffbb439ed632a0835df7a26474c10070]
+entity WP2--><rect fill="#334C24" height="129.418" style="stroke:#000000;stroke-width:1.5;" width="291" x="56.5" y="205"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="66.5" y="221.5352">WP-I2: Fabric and Solid State Storage</text><line style="stroke:#000000;stroke-width:1.0;" x1="57.5" x2="346.5" y1="224.4883" y2="224.4883"/><line style="stroke:#000000;stroke-width:1.0;" x1="57.5" x2="346.5" y1="226.4883" y2="226.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="269" x="66.5" y="242.0234">Goals: (1)  Deploy and assess RDMA I/O</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="266" x="66.5" y="258.5117">&amp; data analytics acceleration, including</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="66.5" y="275">emerging SmartNic strategies.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="247" x="66.5" y="291.4883">(2) Investigate solid state I/O accel'n</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251" x="66.5" y="307.9766">strategies; DAOS, Burst Buffers, DAC,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="66.5" y="324.4648">Dynamic file systems, GekkoFS, UnifyFS.</text><!--MD5=[ade9e5d43f7cbea44923d73826cb2b33]
+entity WP3--><rect fill="#334C24" height="112.9297" style="stroke:#000000;stroke-width:1.5;" width="284" x="60" y="84"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="70" y="100.5352">WP-I1: Storage Interfaces</text><line style="stroke:#000000;stroke-width:1.0;" x1="61" x2="343" y1="103.4883" y2="103.4883"/><line style="stroke:#000000;stroke-width:1.0;" x1="61" x2="343" y1="105.4883" y2="105.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="234" x="70" y="121.0234">Goal: Users know where their data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="264" x="70" y="137.5117">is, can move it between sites &amp; storage</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="70" y="154">tiers and subset using semantic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="255" x="70" y="170.4883">information exploiting tiered storage</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="70" y="186.9766">locally and across WAN.</text><!--MD5=[d3953755091613c7805b6b3b642abcdf]
+link WP5 to WP6--><!--MD5=[4e1c6fd991d78c39d5c9e548f2b75e87]
+link WP6 to WP4--><!--MD5=[21c22770837b9726af41d866c2fc9f0f]
+link WP3 to WP2--><!--MD5=[5c05e5657d1a5af98f1af8a6c0966f3b]
+link WP2 to WP1--><!--MD5=[1fdde18f05ea2554207e8f0b5c380768]
+link WP1 to WP8--><!--MD5=[03be58f99dfa4c69f5e2fcb0917b7de1]
+link WP4 to WP8--><!--MD5=[54ca330041498b551c1f980040431895]
+@startuml
+skinparam ranksep 3
+skinparam NoteBorderColor Black
+skinparam NoteBackgroundColor white
+skinparam cardbackgroundcolor beige
+skinparam shadowing false
+
+package "ExCALIData"  {
+
+package "EX20-7 ExCALIWork (Workflow)"  {
+
+    card WP4 #88160F;text:white [
+    WP-W3: I/O Server Prototypes
+    ====
+    Goal: Develop an "in-flight"
+    analysis system with interacting
+    MPI communicators and ensemble
+    reductions across model components.
+    ]
+
+    card WP5 #88160F;text:white [
+    WP-W1 Active Storage Software
+    ====
+    Goal: Develop a full-stack approach
+    to active storage with user tooling
+    which exploits domain knowledge and
+    domain agnostic middleware and new
+    (WP-W3) active storage services.
+    ]
+
+    card WP6 #88160F;text:white [
+    WP-W2: Active Storage Servers
+    ====
+    Goal: Develop, deploy and test systems
+    which exploit the proposed active
+    storage interface to carry out
+    specific operations behind an API
+    suitable for deployment in both
+    (1) cloud and (2) conventional HPC.
+    ]
+
+    WP5 -[Hidden]- WP6
+    WP6 -[Hidden]- WP4
+
+    }
+
+    package "EX20-6 ExCALIStore (IO & Storage)"  {
+
+    card WP1 #334C24;text:white [
+    WP-I3: I/O middleware
+    ====
+    Goal: Test and understand strengths
+    and weaknesses of generic and specific
+    I/O middleware, in particular
+    (1) ADIOS and (2) ESDM.
+    ]
+
+    card WP2 #334C24;text:white [
+    WP-I2: Fabric and Solid State Storage
+    ====
+    Goals: (1)  Deploy and assess RDMA I/O
+    & data analytics acceleration, including
+    emerging SmartNic strategies.
+    (2) Investigate solid state I/O accel'n
+    strategies; DAOS, Burst Buffers, DAC,
+    Dynamic file systems, GekkoFS, UnifyFS.
+    ]
+
+    card WP3 #334C24;text:white [
+    WP-I1: Storage Interfaces
+    ====
+    Goal: Users know where their data
+    is, can move it between sites & storage
+    tiers and subset using semantic
+    information exploiting tiered storage
+    locally and across WAN.
+    ]
+
+    WP3 -[Hidden]-WP2
+    WP2 -[Hidden]-WP1
+
+    }
+
+card WP8 #azure [
+WP4: Community Building & Proj. Man.
+====
+(1) Establish a UK community of RSEs and
+application specialists with interest, aptitude,
+and experience in managing  exascale data flows
+and exascale data residence.
+(2) Coordinate project and formal reporting
+to Met Office.
+]
+
+note right of WP8
+Both projects include
+a WP4 with complementary
+activities. If both are funded
+twice as much effort will be
+deployed as a consolidated
+work package.
+end note
+
+WP1 -[Hidden]- WP8
+WP4 -[Hidden]- WP8
+}
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

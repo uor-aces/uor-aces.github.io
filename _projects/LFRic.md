@@ -10,10 +10,11 @@ description: |
     Model.
 people:
   - chris
+status: front
 
 layout: project
 image: /img/LFRicPSycloneBanner.png
-last-updated: 2018-03-14
+last-updated: 2021-10-03
 #no link means not linked out of project description box to a project page
 #no-link: true
 #link means go somewhere offsite for a link to the project.
@@ -26,7 +27,7 @@ code. This allows a <i>relatively</i> straightforward data parallelism to be
 expressed in the code without too much disruption to the maths/science
 code. However, this is no longer
 enough to address the degree of parallelism and does not allow for
-memory hierachies and highly threaded parallelism on complex
+memory hierarchies and highly threaded parallelism on complex
 nodes. Directive based programming such as OpenMP or OpenACC can be
 used but these are developing rapidly and as the number of necessary
 directives increases it can obscure the science code. Moreover, having
@@ -34,14 +35,14 @@ multiple directive groups for different architectures effectively
 prevents single source science code. Furthermore, future processor
 architectures are likely employ much greater levels of Instruction
 Level Parallelism. This may require different loop orders for
-different architecures which is beyond the scope of directives based
-programming models. The powerful abstraction of a high-level langauge
+different architectures which is beyond the scope of directives based
+programming models. The powerful abstraction of a high-level language
 and compiler which allows the developer to <i>write code like the
 maths</i> (in some sense) is broken.
 
 Domain Specific Languages (DSLs) are one approach to tackling this
 problem. By reducing the domain from, for example, all of mathematics, to
-targetting a particular problem it is possible to split the
+targeting a particular problem it is possible to split the
 mathematics based science code from the performance based parallel
 code. This is known as a <i>separation of concerns</i>. Once a code is
 structured in this way with well defined APIs between each concern it
@@ -49,10 +50,10 @@ is possible to change one, without changing the other.
 
 A further step is to use the extra information about the mathematics
 which is known to the developer to make choices about how the
-parallelism can be implemented. Typicially this <i>is</i> known to the
-developer, but cannot necessarily be inferred by a standard langauge
+parallelism can be implemented. Typically this <i>is</i> known to the
+developer, but cannot necessarily be inferred by a standard language
 compiler. This can be expressed as <i>metadata</i>. If this is
-embedded in a high-level langauge such as C/C++, Fortran or Python
+embedded in a high-level language such as C/C++, Fortran or Python
 then the APIs form in effect a Domain Specific Embedded Language
 (DSEL). If the metadata is sufficiently rich it is possible to
 <i>generate</i> the parallel and performance code automatically

@@ -29,6 +29,8 @@ roles:
     name: Undergraduate Students
   - key: ugrad-alum
     name: Past Undergraduate Students
+  - key: collabgrp
+    name: Related Research Groups
   - key: collab
     name: Collaborators
   - key: collabinst

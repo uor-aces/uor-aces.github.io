@@ -23,12 +23,12 @@ role-tables:
     width: 4
     image: true
   - roles: [collab]
-    width: 4
+    width: 8
     image: false
-- - roles: [collabinst]
+  - roles: [collabgrp, collabinst]
     width: 8
     image: true
-- - roles: [ugrad, alum, ugrad-alum]
+  - roles: [ugrad, alum, ugrad-alum]
     width: 4
     image: false
 
@@ -44,6 +44,8 @@ role-tables:
 and consultancy for third parties, including the wider scientific community
 and industry. Get in touch with one of us if you are interested (contact details
 are on individual web pages linked below). </p>
+
+<p> Several of us hold dual positions with other organisations. <a href="/bio/bryan.html">Bryan</a>, <a href="/bio/simon.html">Simon</a>, and <a href="/bio/annette.html">Annette</a> all have roles in <a href="http://cms.ncas.ac.uk">NCAS/CMS</a> as well, and <a href="/bio/chris.html">Chris</a> has a dual position with the Met Office.
 
 <div id="people">
     {% for role-table in page.role-tables %}

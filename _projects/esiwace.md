@@ -6,14 +6,18 @@ description:
   ACES involvement in ESIWACE includes developing new I/O sub-systems capable of handling
   pre-exascale data flows both at simulation time, and in the analysis environment.
 
+status: front
+
 people:
   - bryan
-  - julian
   - neil
+  - grenville
+  - cms
+  - julian
 
 layout: project
 image: /img/esiwace_main.jpg
-last-updated: 2018-03-12
+last-updated: 2021-10-01
 ---
 
 ## Preparing for Exascale
