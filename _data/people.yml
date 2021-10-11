@@ -35,6 +35,12 @@ daniel:
     bio: Ph.D Student
     image: /img/people/daniel.jpg
 
+erdem: 
+    display_name: "Erdem Yilmaz"
+    role: phd
+    webpage: /bio/erdem
+    bio: Ph.D Student
+    image: /img/people/erdem.jpg
 
 simon:
     display_name: "Simon Wilson"
@@ -44,7 +50,7 @@ simon:
     image: /img/people/simon.jpg
 
 grenville:
-    display_name: "Grenville"
+    display_name: "Grenville Lister"
     role: collab
     bio: Head of NCAS CMS
     webpage: https://research.reading.ac.uk/meteorology/people/grenville-lister/
