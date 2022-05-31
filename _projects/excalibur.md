@@ -24,7 +24,7 @@ The Exascale Computing ALgorithms & Infrastructures for the Benefit of UK Resear
 We have two funded projects in the cross-cutting segment of the programme, addressing a) optimal use of storage by developing new storage interfaces which hide storage complexity, and b) minimising data movement within simulations and in analysis workflows.  The two projects were designed a complementary pair in the hope they would both be funded - they were. The  work packages are shown in this schematic:
 
 <figure class="uor-proj-img">
-<img alt="Three types of computing" src="/img/excali-workpackages3.svg" style="width:80%">
+<img alt="Three types of computing" src="/img/dia-workpackages3.svg" style="width:80%">
 <figcaption>Key activities within ExCALIDATA.</figcaption>
 </figure>
 
