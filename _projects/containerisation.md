@@ -12,7 +12,7 @@ people:
   - bryan
 
 layout: project
-last-updated: 22-05-31
+last-updated: 2022-05-31
 status: active
 ---
 
