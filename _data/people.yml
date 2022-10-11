@@ -49,6 +49,15 @@ simon:
     bio: Research Software Engineer
     image: /img/people/simon.jpg
 
+
+david:
+    display_name: "David Case"
+    role: staff
+    webpage: /bio/davidc
+    bio: Research Software Engineer
+    image: /img/people/davidc.jpg
+
+
 grenville:
     display_name: "Grenville Lister"
     role: collab
