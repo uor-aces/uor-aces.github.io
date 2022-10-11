@@ -52,7 +52,7 @@ are on individual web pages linked below). </p>
         <div class="people row justify-content-between">
             {% for role-column in role-table %}
                 <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
+                    {% for role in role-column.roles %} 
                         {% include role-people.html role=role image=role-column.image %}
                     {% endfor %}
                 </div>

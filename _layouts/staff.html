@@ -18,17 +18,21 @@ See also:
 {{ content }}
 
 <div class="address-bumf">
+{% if page.email or page.department %}
 <h3> Contact </h3>
 <p>
 {{ page.salutation }} {{page.title}} <br/>
+{% if page.department %}
 {{page.department}}<br/>
 School of Mathematical, Physical and Computer Science <br/>
 University of Reading <br/>
 {% if page.room %}Room {{page.room}} Polly Vacher<br/> {% endif %}
 Whiteknights, Reading <br/>
 RG6 6AY<br/>
+{% endif %}
 </p>
 
 <p> {%if page.phone %} Phone: {{page.phone}}; {% endif %}
     {% if page.email %} Email: {{page.email}} {% endif %}</p>
+{% endif %}
 </div>

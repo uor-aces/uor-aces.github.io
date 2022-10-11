@@ -1,5 +1,5 @@
 name: Advanced Computing for Environmental Science
-url: http://uor-aces.github.org
+url: http://localhost:4001
 
 headline: The Advanced Computing for Environmental Science (ACES) research group conducts cutting-edge research in computer science to accelerate environmental science.
 
@@ -26,10 +26,10 @@ roles:
   - key: grad
     name: Graduate Students
   - key: alum
-    name: Previous Ph.D Students
+    name: Previous PhD Students
 #  - key: ugrad
-#    name: Undergraduate Students
 #  - key: ugrad-alum
+#    name: Undergraduate Students
 #    name: Past Undergraduate Students
   - key: collabgrp
     name: Related Research Groups
@@ -39,7 +39,7 @@ roles:
     name: Institutional Collaborators
 
 footer_description: >
- Advanced Computing for Environmental Science <br/>
+ Advanced Computing for Environmental Science TEST SITE <br/>
  <a href="http://www.reading.ac.uk/smpcs-home.aspx">University of Reading - School of Mathematical, Physical and Computational Sciences </a>
 
 # Number of news stories on the front page.
