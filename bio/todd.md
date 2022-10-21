@@ -12,7 +12,7 @@ email: t.r.jones@reading.ac.uk
 phone: +44 (0)118 378 3187
 room: Room 149
 bio-headline: >
-    I joined the Advanced Computing for Environmental Sciences (ACES) group in the department of Computer Science at the University of Reading in July 2022.
+    I joined the Advanced Computing for Environmental Sciences (ACES) group in the Department of Computer Science at the University of Reading in July 2022.
 ---
 
 ### Research Interests
