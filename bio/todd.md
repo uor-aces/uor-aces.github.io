@@ -29,5 +29,5 @@ In 2017, I joined the Department of Meteorology at the University of Reading as 
 I became a Lecturer in Computer Science (with application to Environmental Science) at the University of Reading in 2022.  I also act as the Department's IT Infrastructure Coordinator.
 
 ### Teaching
-[CS2PP22](https://www.reading.ac.uk/modules/document.aspx?modP=CS2PP22&modYR=2223) - Programming in Python for Data Science
-[CSMAD21](https://www.reading.ac.uk/modules/document.aspx?modP=CSMAD21&modYR=2223) - Applied Data Science with Python
+* [CS2PP22](https://www.reading.ac.uk/modules/document.aspx?modP=CS2PP22&modYR=2223) - Programming in Python for Data Science
+* [CSMAD21](https://www.reading.ac.uk/modules/document.aspx?modP=CSMAD21&modYR=2223) - Applied Data Science with Python
